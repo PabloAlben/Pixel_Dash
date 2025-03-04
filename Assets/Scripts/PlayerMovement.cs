@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jugador : MonoBehaviour
+public class MovimientoJugador : MonoBehaviour
 {
     public float velocidad = 5f;
-    public float fuerzaSalto = 7f;
+    public float fuerzaSalto = 8f;
+    public LayerMask suelo;
     private Rigidbody2D rb;
     private bool enSuelo;
+
+    public Transform detectorSuelo;
+    public float radioDeteccion = 0.4f;
 
     void Start()
     {
@@ -16,30 +20,15 @@ public class Jugador : MonoBehaviour
 
     void Update()
     {
-        // Movimiento
-        float mover = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(mover * velocidad, rb.velocity.y);
+        float movimiento = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(movimiento * velocidad, rb.velocity.y);
 
-        // Salto
+        enSuelo = Physics2D.OverlapCircle(detectorSuelo.position, radioDeteccion, suelo);
+
         if (Input.GetKeyDown(KeyCode.Space) && enSuelo)
         {
             rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
         }
     }
-
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.CompareTag("Suelo"))
-        {
-            enSuelo = true;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D col)
-    {
-        if (col.gameObject.CompareTag("Suelo"))
-        {
-            enSuelo = false;
-        }
-    }
 }
+
