@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CamaraSeguimiento.cs" />
     <Compile Include="Assets\Scripts\ZonaMuerte.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>

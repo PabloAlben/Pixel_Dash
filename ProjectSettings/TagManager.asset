@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Suelo
   - Jugador
+  - ZonaMuerte
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
