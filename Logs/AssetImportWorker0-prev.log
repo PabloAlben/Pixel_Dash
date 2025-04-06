@@ -15,7 +15,7 @@ C:/Users/gaming/Desktop/TFC/Pixel Dash
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63693
+61223
 Successfully changed project path to: C:/Users/gaming/Desktop/TFC/Pixel Dash
 C:/Users/gaming/Desktop/TFC/Pixel Dash
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/gaming/Desktop/TFC/Pixel Dash
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17312] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3996554762 [EditorId] 3996554762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2910EP1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3628] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2899047468 [EditorId] 2899047468 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2910EP1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17312] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3996554762 [EditorId] 3996554762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2910EP1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3628] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2899047468 [EditorId] 2899047468 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2910EP1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 12.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011675 seconds.
-- Loaded All Assemblies, in  0.324 seconds
+Registered in 0.015423 seconds.
+- Loaded All Assemblies, in  0.381 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.283 seconds
-Domain Reload Profiling: 605ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.313 seconds
+Domain Reload Profiling: 693ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (94ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (122ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (111ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (283ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (314ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (231ms)
+		SetupLoadedEditorAssemblies (242ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (163ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,52 +117,52 @@ Domain Reload Profiling: 605ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.650 seconds
-Refreshing native plugins compatible for Editor in 5.38 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.753 seconds
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.658 seconds
-Domain Reload Profiling: 1305ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1432ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (333ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (418ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (122ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (659ms)
+	FinalizeReload (684ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (505ms)
+		SetupLoadedEditorAssemblies (523ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (375ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 5.14 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4628 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (319.3 KB). Loaded Objects now: 5084.
+Unloading 92 unused Assets / (318.8 KB). Loaded Objects now: 5084.
 Memory consumption went from 158.0 MB to 157.7 MB.
-Total: 3.742700 ms (FindLiveObjects: 0.390700 ms CreateObjectMapping: 0.366900 ms MarkObjects: 2.702800 ms  DeleteObjects: 0.281000 ms)
+Total: 4.994200 ms (FindLiveObjects: 0.605400 ms CreateObjectMapping: 0.268900 ms MarkObjects: 3.696300 ms  DeleteObjects: 0.421500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,321 +179,259 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 67233.701398 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-1.png
-  artifactKey: Guid(33a0ed5147390d449ba63f7602231fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-1.png using Guid(33a0ed5147390d449ba63f7602231fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 93638.149379 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-sit-Loop.png
+  artifactKey: Guid(e57361100888c214fb79b5655bc2fb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-sit-Loop.png using Guid(e57361100888c214fb79b5655bc2fb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e7a402bdb27e1cc7583b5c65ea6ccd5f') in 0.052285 seconds
+ -> (artifact id: '1a21c1071b3a1d330d01170e9b6b0983') in 0.057571 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 15.114686 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-1.png
-  artifactKey: Guid(33a0ed5147390d449ba63f7602231fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-1.png using Guid(33a0ed5147390d449ba63f7602231fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 5.589237 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-sit-Loop.png
+  artifactKey: Guid(e57361100888c214fb79b5655bc2fb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-sit-Loop.png using Guid(e57361100888c214fb79b5655bc2fb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '89eaad775d4c0fe6acbc45b94927a4aa') in 0.080934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 877.078714 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-2.png
-  artifactKey: Guid(b081a3cdb6f04b444add527bb086df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-2.png using Guid(b081a3cdb6f04b444add527bb086df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ce2495e2bc571065d30d32e6ef2f9457') in 0.019137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 18.927275 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-2.png
-  artifactKey: Guid(b081a3cdb6f04b444add527bb086df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-2.png using Guid(b081a3cdb6f04b444add527bb086df5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9a6fe81e1b15918bb10e1eafd8e975bb') in 0.087601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 309.569906 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-3.png
-  artifactKey: Guid(90aef80af42023947ad35912308757a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-3.png using Guid(90aef80af42023947ad35912308757a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '55b0f789cf7dcf45d0b15b4e91f25bef') in 0.020371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.991863 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-3.png
-  artifactKey: Guid(90aef80af42023947ad35912308757a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-3.png using Guid(90aef80af42023947ad35912308757a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '21045f8e700fb1864051af2817d88725') in 0.033160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 460.470943 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-idle1.png
-  artifactKey: Guid(9ac63d2b01fb5764390cdb614aa89532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-idle1.png using Guid(9ac63d2b01fb5764390cdb614aa89532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '37e9e50adc90c5b27789a3de5406ed5c') in 0.021064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 277.482613 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-idle1.png
-  artifactKey: Guid(9ac63d2b01fb5764390cdb614aa89532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-idle1.png using Guid(9ac63d2b01fb5764390cdb614aa89532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7b37d161ab6e9702ea1557f188d3667a') in 0.033247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 838.609398 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-idle2.png
-  artifactKey: Guid(5f663ff2836224a4e8bb9c7af55e3be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-idle2.png using Guid(5f663ff2836224a4e8bb9c7af55e3be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '49b13b5162516c2fbbb43308e1f95683') in 0.030368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.270944 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Attack-idle2.png
-  artifactKey: Guid(5f663ff2836224a4e8bb9c7af55e3be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Attack-idle2.png using Guid(5f663ff2836224a4e8bb9c7af55e3be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c045c79f64bc02e2c214b70b0c222b7a') in 0.089026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 655.221868 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-dash-1.png
-  artifactKey: Guid(4959260d921dc294b8128ebf7c97ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-dash-1.png using Guid(4959260d921dc294b8128ebf7c97ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '13e7868c5adde3a4b177974da18378c9') in 0.017860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 14.981711 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-dash-1.png
-  artifactKey: Guid(4959260d921dc294b8128ebf7c97ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-dash-1.png using Guid(4959260d921dc294b8128ebf7c97ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7250f324902f47584414e2fce92e8412') in 0.033381 seconds
+ -> (artifact id: '8f42875943413cf257d7fc5a04a2b4f2') in 0.062030 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 262.479193 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-die.png
-  artifactKey: Guid(8c0707547509a7549bb175766a3f8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-die.png using Guid(8c0707547509a7549bb175766a3f8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 56.499208 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-sitting.png
+  artifactKey: Guid(b95b2ad3712ae9e4d887fc8c3fbf8df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-sitting.png using Guid(b95b2ad3712ae9e4d887fc8c3fbf8df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8f1015fbe8f9607c4036dcdf85372e5f') in 0.022601 seconds
+ -> (artifact id: 'ce15f0a9ab68a3752607bf5651bbe0c8') in 0.014320 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 12.674114 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-die.png
-  artifactKey: Guid(8c0707547509a7549bb175766a3f8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-die.png using Guid(8c0707547509a7549bb175766a3f8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 5.087054 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-sitting.png
+  artifactKey: Guid(b95b2ad3712ae9e4d887fc8c3fbf8df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-sitting.png using Guid(b95b2ad3712ae9e4d887fc8c3fbf8df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '78786fbe03c2d10d1d23380e374ce39e') in 0.150650 seconds
+ -> (artifact id: 'f35d476a3d107f8cf352e7c5f931f165') in 0.071976 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 588.628964 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-falling.png
-  artifactKey: Guid(546e0f4f3502e9e4cac86358d799b600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-falling.png using Guid(546e0f4f3502e9e4cac86358d799b600) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 86.928808 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-slide.png
+  artifactKey: Guid(50d409bb54544674fb6782477872ffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-slide.png using Guid(50d409bb54544674fb6782477872ffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0ae7c3f10c6181828f7dca3eb0b2cbd1') in 0.026108 seconds
+ -> (artifact id: '4594ea45d331d3b92fc00904fad9a195') in 0.017848 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 46.721311 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-falling.png
-  artifactKey: Guid(546e0f4f3502e9e4cac86358d799b600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-falling.png using Guid(546e0f4f3502e9e4cac86358d799b600) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 6.687909 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-slide.png
+  artifactKey: Guid(50d409bb54544674fb6782477872ffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-slide.png using Guid(50d409bb54544674fb6782477872ffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'becd6d9d7e06817c71224f26ea2ca09c') in 0.023428 seconds
+ -> (artifact id: '7e6ae1838b0875528de6b1b86b036988') in 0.026457 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 71.588877 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-hurt.png
-  artifactKey: Guid(11288a064f3d27a4aa22b4e945799339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-hurt.png using Guid(11288a064f3d27a4aa22b4e945799339) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 57.702175 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-slide-Prepare.png
+  artifactKey: Guid(e417e48f719fbb5428dd7194dfde45c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-slide-Prepare.png using Guid(e417e48f719fbb5428dd7194dfde45c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5b91b486ea811abbbb702759a00de7aa') in 0.014549 seconds
+ -> (artifact id: 'b4dfd4891a465efa415b8e1660bc6148') in 0.036880 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 10.217404 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-hurt.png
-  artifactKey: Guid(11288a064f3d27a4aa22b4e945799339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-hurt.png using Guid(11288a064f3d27a4aa22b4e945799339) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 8.149709 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-slide-Prepare.png
+  artifactKey: Guid(e417e48f719fbb5428dd7194dfde45c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-slide-Prepare.png using Guid(e417e48f719fbb5428dd7194dfde45c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9296c95d856f634d7625c729584ed6f2') in 0.020737 seconds
+ -> (artifact id: '2dd505f524d0439db17dcd3440b5afa3') in 0.022438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 52.865199 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-slide-Recover.png
+  artifactKey: Guid(f34ffd848f36e764883cdc728c343a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-slide-Recover.png using Guid(f34ffd848f36e764883cdc728c343a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a82cb538d75b168171625c3243dbaa1') in 0.012946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.564189 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-slide-Recover.png
+  artifactKey: Guid(f34ffd848f36e764883cdc728c343a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-slide-Recover.png using Guid(f34ffd848f36e764883cdc728c343a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4769f781eb699832c8abe0f41696aa1a') in 0.020254 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 116.655079 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Idle-1.png
-  artifactKey: Guid(103a86c83a63a68439dd19708ad6e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Idle-1.png using Guid(103a86c83a63a68439dd19708ad6e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 55.371296 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-stand-Up.png
+  artifactKey: Guid(d555f39fbd56f904ebf92670ab1168c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-stand-Up.png using Guid(d555f39fbd56f904ebf92670ab1168c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd6aada4525e260ba664a53d78dde64c5') in 0.017180 seconds
+ -> (artifact id: 'cb36e9bd0a64ab5ccbfb64288482e8a5') in 0.013945 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7.101743 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Idle-1.png
-  artifactKey: Guid(103a86c83a63a68439dd19708ad6e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Idle-1.png using Guid(103a86c83a63a68439dd19708ad6e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 4.940043 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-stand-Up.png
+  artifactKey: Guid(d555f39fbd56f904ebf92670ab1168c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-stand-Up.png using Guid(d555f39fbd56f904ebf92670ab1168c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3783a659cdf546c2c49f9ee39b12b2ce') in 0.080787 seconds
+ -> (artifact id: 'e7619bcc93abbf79cf685d2fc124c9b7') in 0.049237 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 489.368794 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Idle-2.png
-  artifactKey: Guid(bed243b2bf2d8e64eb71bc5d23bf00f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Idle-2.png using Guid(bed243b2bf2d8e64eb71bc5d23bf00f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 131.989414 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-walk.png
+  artifactKey: Guid(ce57e19edabbc8d47b5c5bcc81fb4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-walk.png using Guid(ce57e19edabbc8d47b5c5bcc81fb4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b56895228087884108a93e324168abfd') in 0.017830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 90.975279 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-Idle-2.png
-  artifactKey: Guid(bed243b2bf2d8e64eb71bc5d23bf00f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-Idle-2.png using Guid(bed243b2bf2d8e64eb71bc5d23bf00f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a78de125ca1f1a240bba1bb6af421b5d') in 0.040965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 140.857326 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-jump.png
-  artifactKey: Guid(d63fa766d0076574b9aebc5eb404fe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-jump.png using Guid(d63fa766d0076574b9aebc5eb404fe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '570f0a3be30252df5b5a6cced43dfbd5') in 0.018654 seconds
+ -> (artifact id: '6d4fead7b4159e7bfcdf9ebdaf5db78a') in 0.014639 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.471168 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-jump.png
-  artifactKey: Guid(d63fa766d0076574b9aebc5eb404fe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-jump.png using Guid(d63fa766d0076574b9aebc5eb404fe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 6.209487 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-walk.png
+  artifactKey: Guid(ce57e19edabbc8d47b5c5bcc81fb4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-walk.png using Guid(ce57e19edabbc8d47b5c5bcc81fb4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cd7d76837b089e02c9744b5cf2364ba9') in 0.028482 seconds
+ -> (artifact id: 'f5420fbb23481d342a45039727d29f43') in 0.062521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 100.406034 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-jump-off.png
+  artifactKey: Guid(8efc4b17207b5f44992604d37fecfee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-jump-off.png using Guid(8efc4b17207b5f44992604d37fecfee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '590a3d3fe2b33080892fc5d31220de42') in 0.014434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.834250 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-jump-off.png
+  artifactKey: Guid(8efc4b17207b5f44992604d37fecfee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-jump-off.png using Guid(8efc4b17207b5f44992604d37fecfee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a03899cdb50a5f4747ca7e4b47ec77d') in 0.135367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 74.506743 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-slide-loop.png
+  artifactKey: Guid(81548ad9aeeaa204dacfe0530b71bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-slide-loop.png using Guid(81548ad9aeeaa204dacfe0530b71bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c54f8d5e4de15985c4abdd946a89b804') in 0.012057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.582645 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-slide-loop.png
+  artifactKey: Guid(81548ad9aeeaa204dacfe0530b71bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-slide-loop.png using Guid(81548ad9aeeaa204dacfe0530b71bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70ebaf03f88c3fe79d7a442f0c339e0a') in 0.026631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 37.872236 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-Stick.png
+  artifactKey: Guid(e9fa26f4a91da074db1b7d58f0dff71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-Stick.png using Guid(e9fa26f4a91da074db1b7d58f0dff71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9733fd50472626febbdceaee6cc69f6') in 0.014160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.127335 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-Stick.png
+  artifactKey: Guid(e9fa26f4a91da074db1b7d58f0dff71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-Stick.png using Guid(e9fa26f4a91da074db1b7d58f0dff71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66459f716f4266ca7178e6aae2aac30a') in 0.025368 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 190.463899 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-jump-movement.png
-  artifactKey: Guid(2c251f6a79ff02b488d079637920f86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-jump-movement.png using Guid(2c251f6a79ff02b488d079637920f86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 65.440743 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-stick-movement.png
+  artifactKey: Guid(af143e04de819af4ba988410f1e709af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-stick-movement.png using Guid(af143e04de819af4ba988410f1e709af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'aaa34f6858484a1f1411ca61892ec60f') in 0.014782 seconds
+ -> (artifact id: 'd0cb4a2ba59c18d8e8bef1366481d71d') in 0.016765 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.772014 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-jump-movement.png
-  artifactKey: Guid(2c251f6a79ff02b488d079637920f86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-jump-movement.png using Guid(2c251f6a79ff02b488d079637920f86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 4.957329 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-stick-movement.png
+  artifactKey: Guid(af143e04de819af4ba988410f1e709af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-stick-movement.png using Guid(af143e04de819af4ba988410f1e709af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a7f1543e011bb644a901779e8049251a') in 0.021544 seconds
+ -> (artifact id: 'fab233acf06300f13f16014b2aff849b') in 0.020874 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 64.818018 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-rolling.png
-  artifactKey: Guid(95e5b1aef9a8b2d4998c5519be04b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-rolling.png using Guid(95e5b1aef9a8b2d4998c5519be04b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 64.549230 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-stick-off-movement.png
+  artifactKey: Guid(972835e1483577d48ae29edbb0131a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-stick-off-movement.png using Guid(972835e1483577d48ae29edbb0131a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fb5edbf6995332e7a4e69b5db608e36f') in 0.016041 seconds
+ -> (artifact id: '749d54c2dd4b362361583635329c178f') in 0.024928 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 5.173843 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-rolling.png
-  artifactKey: Guid(95e5b1aef9a8b2d4998c5519be04b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-rolling.png using Guid(95e5b1aef9a8b2d4998c5519be04b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 9.567609 seconds.
+  path: Assets/Sprites/Character-Weapon/Character-wall-stick-off-movement.png
+  artifactKey: Guid(972835e1483577d48ae29edbb0131a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character-Weapon/Character-wall-stick-off-movement.png using Guid(972835e1483577d48ae29edbb0131a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e53c88bba118deb0d53d7d8f9ef835ce') in 0.041021 seconds
+ -> (artifact id: '7ea565b3fa2eddf3edcf96a8d0430e0f') in 0.084266 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 121.008257 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-rolling-No-Jump.png
-  artifactKey: Guid(d4822920e8dc6eb458148dd2528c26b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-rolling-No-Jump.png using Guid(d4822920e8dc6eb458148dd2528c26b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fb1ccbe732ea0755dd23ace990367794') in 0.013422 seconds
+  Time since last request: 61.529526 seconds.
+  path: Assets/animaciones/Player.controller
+  artifactKey: Guid(1470cb5b6851d054da6f7b017b14da06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animaciones/Player.controller using Guid(1470cb5b6851d054da6f7b017b14da06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ec53a5e32fb754fdaaf2c704a18dba6') in 0.006377 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 34
 ========================================================================
 Received Import Request.
-  Time since last request: 6.558473 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-rolling-No-Jump.png
-  artifactKey: Guid(d4822920e8dc6eb458148dd2528c26b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-rolling-No-Jump.png using Guid(d4822920e8dc6eb458148dd2528c26b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8f45cdf74a612c3370c97869e19bcec5') in 0.025739 seconds
+  Time since last request: 272.990010 seconds.
+  path: Assets/animaciones/Player.controller
+  artifactKey: Guid(1470cb5b6851d054da6f7b017b14da06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animaciones/Player.controller using Guid(1470cb5b6851d054da6f7b017b14da06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54f193864c8c03b11954912ddb800e2d') in 0.007828 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 121.613700 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-run-weapon.png
-  artifactKey: Guid(288cd3c2720c6044582aa25b67b1b303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-run-weapon.png using Guid(288cd3c2720c6044582aa25b67b1b303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4a0d253d26e468139853cfd71cbb5695') in 0.013541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 13.246340 seconds.
-  path: Assets/Sprites/Character-Weapon/Character-run-weapon.png
-  artifactKey: Guid(288cd3c2720c6044582aa25b67b1b303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Character-Weapon/Character-run-weapon.png using Guid(288cd3c2720c6044582aa25b67b1b303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4e601bd7907bf4b25523b27a1542801c') in 0.041370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 55
