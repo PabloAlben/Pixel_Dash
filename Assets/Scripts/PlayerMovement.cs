@@ -50,6 +50,13 @@ public class MovimientoJugador : MonoBehaviour
     private bool sentado = false;
     private bool levantandose = false;
 
+     [Header("Ataques")]
+    public float duracionAtaque = 0.5f;
+    private bool atacando = false;
+    private int comboPaso = 0;
+    private float tiempoUltimoAtaque = 0f;
+    public float tiempoMaximoEntreCombos = 10f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -97,6 +104,23 @@ public class MovimientoJugador : MonoBehaviour
         {
             StartCoroutine(RealizarSlide());
         }
+
+        // ATAQUE
+        if (Input.GetKeyDown(KeyCode.E) && !haciendoDash && !haciendoRolling && !haciendoSlide)
+        {
+            if (Time.time - tiempoUltimoAtaque > tiempoMaximoEntreCombos)
+            {
+                comboPaso = 0;
+            }
+
+            comboPaso++;
+            if (comboPaso > 3) comboPaso = 1;
+
+            tiempoUltimoAtaque = Time.time;
+
+            StartCoroutine(RealizarAtaque(comboPaso));
+        }
+
 
         if (haciendoDash || animacionDashActiva)
         {
@@ -162,7 +186,7 @@ public class MovimientoJugador : MonoBehaviour
                             Input.GetKeyDown(teclaRolling) ||
                             Input.GetKeyDown(teclaSlide);
 
-        if (!hayActividad && enSuelo && !afk && !sentado)
+        if (!hayActividad && enSuelo && !afk && !sentado && !atacando)
         {
             tiempoInactivo += Time.deltaTime;
 
@@ -194,7 +218,8 @@ public class MovimientoJugador : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (levantandose || haciendoDash) return;
+        if (levantandose || haciendoDash || atacando) return;
+
 
         float movimiento = Input.GetAxis("Horizontal");
 
@@ -295,4 +320,22 @@ public class MovimientoJugador : MonoBehaviour
         levantandose = false;
         animator.SetBool("afk", false);
     }
+
+   IEnumerator RealizarAtaque(int numeroAtaque)
+    {
+        atacando = true;
+
+        string trigger = "atack" + numeroAtaque;
+        animator.SetTrigger(trigger);
+        animator.SetBool("isRunning", false);
+
+        // Esperar a que la animación actual termine antes de permitir otro ataque
+        float tiempoEspera = duracionAtaque;
+
+        // Asegurar que se respete el tiempo entre combos (y permitir input justo antes de que termine)
+        yield return new WaitForSeconds(tiempoEspera - 0.1f);
+
+        atacando = false;
+    }
+
 }
