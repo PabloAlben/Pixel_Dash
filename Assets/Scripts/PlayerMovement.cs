@@ -57,6 +57,16 @@ public class MovimientoJugador : MonoBehaviour
     private float tiempoUltimoAtaque = 0f;
     public float tiempoMaximoEntreCombos = 10f;
 
+    private BoxCollider2D boxCollider;
+    private Vector2 colliderSizeOriginal;
+    private Vector2 colliderOffsetOriginal;
+
+    [SerializeField] private Vector2 colliderSizeSlide = new Vector2(1f, 0.4f);
+    [SerializeField] private Vector2 colliderOffsetSlide = new Vector2(0f, 0.1f);
+
+
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -65,6 +75,9 @@ public class MovimientoJugador : MonoBehaviour
         ultimoCheckpoint = transform.position;
         animator.Play("idle1");
         gravedadOriginal = rb.gravityScale;
+        boxCollider = GetComponent<BoxCollider2D>();
+        colliderSizeOriginal = boxCollider.size;
+        colliderOffsetOriginal = boxCollider.offset;
     }
 
     void Update()
@@ -275,7 +288,7 @@ public class MovimientoJugador : MonoBehaviour
         puedeCorrer = true;
     }
 
-    IEnumerator RealizarSlide()
+   IEnumerator RealizarSlide()
     {
         haciendoSlide = true;
         animator.SetTrigger("slide");
@@ -283,11 +296,19 @@ public class MovimientoJugador : MonoBehaviour
         float velocidadOriginal = velocidad;
         velocidad *= 1.5f;
 
+        // Reducir el collider
+        boxCollider.size = colliderSizeSlide;
+        boxCollider.offset = colliderOffsetSlide;
+
         yield return new WaitForSeconds(tiempoSlide);
 
+        // Restaurar collider y velocidad
+        boxCollider.size = colliderSizeOriginal;
+        boxCollider.offset = colliderOffsetOriginal;
         velocidad = velocidadOriginal;
         haciendoSlide = false;
     }
+
 
     IEnumerator HacerRolling()
     {
