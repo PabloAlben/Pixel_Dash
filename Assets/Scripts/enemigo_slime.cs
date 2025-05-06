@@ -20,6 +20,8 @@ public class EnemigoSlime : MonoBehaviour
     private Rigidbody2D rb;
     private bool estaAtacando = false;
 
+    [SerializeField] private GameObject hitboxAtaque;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -99,6 +101,7 @@ public class EnemigoSlime : MonoBehaviour
             animator.SetTrigger("isSlashing");
             estaAtacando = true;
             rb.velocity = Vector2.zero;
+            hitboxAtaque.SetActive(true);
         }
     }
 
@@ -120,6 +123,7 @@ public class EnemigoSlime : MonoBehaviour
     public void FinAtaque()
     {
         estaAtacando = false;
+        hitboxAtaque.SetActive(false);
     }
 
 

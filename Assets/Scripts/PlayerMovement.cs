@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,11 @@ public class MovimientoJugador : MonoBehaviour
     public float velocidad = 5f;
     public float fuerzaSalto = 8f;
     public LayerMask suelo;
+
+    public int vidaMaxima = 5;
+    private int vidaActual;
+
+    private bool estaMuerto = false;
 
     private Rigidbody2D rb;
     private bool enSuelo;
@@ -69,6 +75,7 @@ public class MovimientoJugador : MonoBehaviour
 
     void Start()
     {
+        vidaActual = vidaMaxima;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -357,6 +364,29 @@ public class MovimientoJugador : MonoBehaviour
         yield return new WaitForSeconds(tiempoEspera - 0.1f);
 
         atacando = false;
+    }
+
+    public void RecibirDaño(int daño)
+    {
+       if (estaMuerto) return;
+
+        vidaActual -= daño;
+        animator.SetTrigger("hurt");
+        Debug.Log("El jugador ha recibido daño. Vida actual: " + vidaActual);
+
+        if (vidaActual <= 0)
+        {
+            Morir();
+        }
+    }
+
+     private void Morir()
+    {
+        if (estaMuerto) return;
+
+            estaMuerto = true;
+            animator.SetTrigger("dead");
+            Debug.Log("El jugador ha muerto.");
     }
 
 }
