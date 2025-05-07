@@ -2,20 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitboxAtaqueSlime : MonoBehaviour
+public class HitboxSlime : MonoBehaviour
 {
-    public int daño = 1;
+    private bool yaGolpeado = false;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Jugador"))
+        if (!yaGolpeado && collision.CompareTag("Player"))
         {
-            MovimientoJugador jugador = other.GetComponent<MovimientoJugador>();
-            if (jugador != null)
-            {
-                jugador.RecibirDaño(daño);
-            }
+            collision.GetComponent<MovimientoJugador>()?.RecibirDaño(1); // Ajusta esto según tu sistema de daño
+            yaGolpeado = true;
         }
+    }
+
+    private void OnEnable()
+    {
+        yaGolpeado = false; // Resetear al volver a activar la hitbox
     }
 }
 

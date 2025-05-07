@@ -72,7 +72,6 @@ public class MovimientoJugador : MonoBehaviour
 
 
 
-
     void Start()
     {
         vidaActual = vidaMaxima;
@@ -89,6 +88,9 @@ public class MovimientoJugador : MonoBehaviour
 
     void Update()
     {
+
+        if (estaMuerto) return;
+
         bool estabaEnSuelo = enSuelo;
         enSuelo = Physics2D.OverlapCircle(detectorSuelo.position, radioDeteccion, suelo);
         animator.SetBool("enSuelo", enSuelo);
@@ -238,7 +240,7 @@ public class MovimientoJugador : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (levantandose || haciendoDash || atacando) return;
+        if (levantandose || haciendoDash || atacando || estaMuerto) return;
 
 
         float movimiento = Input.GetAxis("Horizontal");
@@ -380,13 +382,30 @@ public class MovimientoJugador : MonoBehaviour
         }
     }
 
-     private void Morir()
+    private void Morir()
     {
         if (estaMuerto) return;
 
-            estaMuerto = true;
-            animator.SetTrigger("dead");
-            Debug.Log("El jugador ha muerto.");
+        estaMuerto = true;
+        animator.SetTrigger("dead");
+        Debug.Log("El jugador ha muerto.");
+
+        StartCoroutine(ReaparecerTrasMuerte());
     }
+
+
+    IEnumerator ReaparecerTrasMuerte()
+    {
+        yield return new WaitForSeconds(3f); // Espera la duración de la animación de muerte (ajusta si es necesario)
+
+        transform.position = ultimoCheckpoint;
+        rb.velocity = Vector2.zero;
+        vidaActual = vidaMaxima;
+        estaMuerto = false;
+
+        animator.ResetTrigger("dead");
+        animator.Play("idle1"); // Asegúrate de que existe esta animación o cámbiala por otra válida
+    }
+
 
 }

@@ -15,12 +15,19 @@ public class EnemigoSlime : MonoBehaviour
     public float rangoDeAtaque = 2f;
     private bool jugadorEnRango;
 
+    [Header("Ataque")]
+    public float tiempoEntreAtaques = 2f;
+    private float tiempoDesdeUltimoAtaque = 0f;
+    private bool estaAtacando = false;
+    public float tiempoActivacionGolpe = 0.3f;
+    public float duracionHitbox = 0.2f;
+    private float tiempoAtaqueActual = 0f;
+    private bool golpeEjecutado = false;
+    [SerializeField] private GameObject hitboxAtaque;
+
     [Header("Referencias")]
     private Animator animator;
     private Rigidbody2D rb;
-    private bool estaAtacando = false;
-
-    [SerializeField] private GameObject hitboxAtaque;
 
     private void Start()
     {
@@ -32,50 +39,44 @@ public class EnemigoSlime : MonoBehaviour
     {
         jugadorEnRango = Vector2.Distance(transform.position, jugador.position) <= rangoDeAtaque;
 
-        AnimatorStateInfo estadoActual = animator.GetCurrentAnimatorStateInfo(0);
-
         if (estaAtacando)
         {
-            // Si ya no está en la animación de ataque, se terminó el ataque
-            if (!estadoActual.IsName("Slash"))
-            {
-                estaAtacando = false;
-            }
+            tiempoAtaqueActual += Time.deltaTime;
+
             return;
         }
 
-        if (jugadorEnRango)
+        tiempoDesdeUltimoAtaque += Time.deltaTime;
+
+        if (jugadorEnRango && tiempoDesdeUltimoAtaque >= tiempoEntreAtaques)
         {
             Atacar();
         }
-        else
+        else if (!jugadorEnRango)
         {
             Patrullar();
         }
+        else
+        {
+            animator.SetBool("isWiggling", false);
+            animator.SetBool("isIdle", true);
+            rb.velocity = Vector2.zero;
+        }
     }
-
-
 
     private void Patrullar()
     {
         animator.SetBool("isWiggling", true);
         animator.SetBool("isIdle", false);
 
-        // Movimiento
         float direccion = moviendoADerecha ? 1f : -1f;
         rb.velocity = new Vector2(direccion * velocidad, rb.velocity.y);
 
-        // Flip y cambio de dirección
-       if (moviendoADerecha && transform.position.x >= puntoDerecho.position.x)
-        {
+        if (moviendoADerecha && transform.position.x >= puntoDerecho.position.x)
             moviendoADerecha = false;
-        }
         else if (!moviendoADerecha && transform.position.x <= puntoIzquierdo.position.x)
-        {
             moviendoADerecha = true;
-        }
 
-        // Aplicar el flip después de cambiar la dirección
         Vector3 escala = transform.localScale;
         escala.x = Mathf.Abs(escala.x) * (moviendoADerecha ? 1 : -1);
         transform.localScale = escala;
@@ -86,23 +87,49 @@ public class EnemigoSlime : MonoBehaviour
         animator.SetBool("isWiggling", false);
         animator.SetBool("isIdle", true);
 
-        AnimatorStateInfo estadoActual = animator.GetCurrentAnimatorStateInfo(0);
-        if (!estadoActual.IsName("Slash"))
-        {
-            // Girar hacia el jugador solo si va a iniciar el ataque
-            Vector3 escalaActual = transform.localScale;
-            float escalaX = Mathf.Abs(escalaActual.x);
-            if (jugador.position.x > transform.position.x)
-                escalaActual.x = escalaX;
-            else
-                escalaActual.x = -escalaX;
-            transform.localScale = escalaActual;
+        if (estaAtacando) return;
 
-            animator.SetTrigger("isSlashing");
-            estaAtacando = true;
-            rb.velocity = Vector2.zero;
+        estaAtacando = true;
+        golpeEjecutado = false;
+        tiempoDesdeUltimoAtaque = 0f;
+        rb.velocity = Vector2.zero;
+
+        animator.SetTrigger("isSlashing");
+
+        // Girar hacia el jugador al atacar
+        Vector3 escala = transform.localScale;
+        escala.x = Mathf.Abs(escala.x) * (jugador.position.x > transform.position.x ? 1 : -1);
+        transform.localScale = escala;
+
+        // Activar el golpe tras un retardo
+        Invoke(nameof(ActivarGolpe), tiempoActivacionGolpe);
+
+        // Terminar el ataque tras una duración total (ajusta si tu animación es más larga)
+        Invoke(nameof(FinAtaque), 1f);
+    }
+
+    private void ActivarGolpe()
+    {
+        if (!golpeEjecutado)
+        {
             hitboxAtaque.SetActive(true);
+            golpeEjecutado = true;
+
+            // Desactivamos la hitbox tras su duración
+            Invoke(nameof(DesactivarHitbox), duracionHitbox);
         }
+    }
+
+
+    private void FinAtaque()
+    {
+        estaAtacando = false;
+        hitboxAtaque.SetActive(false);
+    }
+
+    private void DesactivarHitbox()
+    {
+        hitboxAtaque.SetActive(false);
     }
 
     public void RecibirDaño()
@@ -119,15 +146,4 @@ public class EnemigoSlime : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
         GetComponent<Collider2D>().enabled = false;
     }
-
-    public void FinAtaque()
-    {
-        estaAtacando = false;
-        hitboxAtaque.SetActive(false);
-    }
-
-
-
 }
-
-

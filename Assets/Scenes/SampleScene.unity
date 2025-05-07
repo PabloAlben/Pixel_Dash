@@ -16261,7 +16261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81666940aefe6fc4c91d8aa9e08ba37d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1704669328
 GameObject:
   m_ObjectHideFlags: 0
@@ -16300,6 +16299,9 @@ MonoBehaviour:
   puntoDerecho: {fileID: 1922181280}
   jugador: {fileID: 721479968}
   rangoDeAtaque: 4
+  tiempoEntreAtaques: 2
+  tiempoActivacionGolpe: 0.9
+  duracionHitbox: 0.2
   hitboxAtaque: {fileID: 0}
 --- !u!61 &1704669330
 BoxCollider2D:
