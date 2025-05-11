@@ -8,9 +8,18 @@ public class HitboxSlime : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!yaGolpeado && collision.CompareTag("Player"))
+        if (!yaGolpeado && collision.CompareTag("Jugador"))
         {
             collision.GetComponent<MovimientoJugador>()?.RecibirDaño(1); // Ajusta esto según tu sistema de daño
+            yaGolpeado = true;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (!yaGolpeado && collision.CompareTag("Jugador"))
+        {
+            collision.GetComponent<MovimientoJugador>()?.RecibirDaño(1);
             yaGolpeado = true;
         }
     }

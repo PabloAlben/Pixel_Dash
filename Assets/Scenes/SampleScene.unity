@@ -16188,7 +16188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1448386180
 Transform:
   m_ObjectHideFlags: 0
@@ -16300,9 +16300,9 @@ MonoBehaviour:
   jugador: {fileID: 721479968}
   rangoDeAtaque: 4
   tiempoEntreAtaques: 2
-  tiempoActivacionGolpe: 0.9
+  tiempoActivacionGolpe: 1.1
   duracionHitbox: 0.2
-  hitboxAtaque: {fileID: 0}
+  hitboxAtaque: {fileID: 1448386179}
 --- !u!61 &1704669330
 BoxCollider2D:
   m_ObjectHideFlags: 0

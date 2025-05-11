@@ -19,7 +19,7 @@ public class EnemigoSlime : MonoBehaviour
     public float tiempoEntreAtaques = 2f;
     private float tiempoDesdeUltimoAtaque = 0f;
     private bool estaAtacando = false;
-    public float tiempoActivacionGolpe = 0.3f;
+    public float tiempoActivacionGolpe = 0.9f;
     public float duracionHitbox = 0.2f;
     private float tiempoAtaqueActual = 0f;
     private bool golpeEjecutado = false;
@@ -104,14 +104,16 @@ public class EnemigoSlime : MonoBehaviour
         // Activar el golpe tras un retardo
         Invoke(nameof(ActivarGolpe), tiempoActivacionGolpe);
 
-        // Terminar el ataque tras una duración total (ajusta si tu animación es más larga)
-        Invoke(nameof(FinAtaque), 1f);
+        float duracionTotalDelAtaque = tiempoActivacionGolpe + duracionHitbox + 0.2f;
+        Invoke(nameof(FinAtaque), duracionTotalDelAtaque);
     }
 
     private void ActivarGolpe()
     {
+        
         if (!golpeEjecutado)
         {
+        
             hitboxAtaque.SetActive(true);
             golpeEjecutado = true;
 

@@ -59,9 +59,9 @@ public class MovimientoJugador : MonoBehaviour
      [Header("Ataques")]
     public float duracionAtaque = 0.5f;
     private bool atacando = false;
-    private int comboPaso = 0;
-    private float tiempoUltimoAtaque = 0f;
-    public float tiempoMaximoEntreCombos = 10f;
+    //private int comboPaso = 0;
+    //private float tiempoUltimoAtaque = 0f;
+    //public float tiempoMaximoEntreCombos = 2f;
 
     private BoxCollider2D boxCollider;
     private Vector2 colliderSizeOriginal;
@@ -128,20 +128,23 @@ public class MovimientoJugador : MonoBehaviour
         }
 
         // ATAQUE
-        if (Input.GetKeyDown(KeyCode.E) && !haciendoDash && !haciendoRolling && !haciendoSlide)
+        // ATAQUES INDIVIDUALES CON TECLAS 1, 2 Y 3
+        if (!haciendoDash && !haciendoRolling && !haciendoSlide && !atacando)
         {
-            if (Time.time - tiempoUltimoAtaque > tiempoMaximoEntreCombos)
+            if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-                comboPaso = 0;
+                StartCoroutine(RealizarAtaque(1));
             }
-
-            comboPaso++;
-            if (comboPaso > 3) comboPaso = 1;
-
-            tiempoUltimoAtaque = Time.time;
-
-            StartCoroutine(RealizarAtaque(comboPaso));
+            else if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                StartCoroutine(RealizarAtaque(2));
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                StartCoroutine(RealizarAtaque(3));
+            }
         }
+
 
 
         if (haciendoDash || animacionDashActiva)

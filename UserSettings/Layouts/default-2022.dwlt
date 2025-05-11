@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 143
+  controlID: 179
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 28
+  controlID: 62
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -315,33 +315,16 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -3023069205010512805, guid: 1470cb5b6851d054da6f7b017b14da06, type: 2}
-    - {fileID: 8935139105511635633, guid: f2beaa941252c0741861fcaeed2f2962, type: 3}
     - {fileID: 7389717483561399910, guid: 63e4154abb88cd54bbd80ab61d4aeb27, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.67608994
+    - e00: 0.5333064
       e01: 0
       e02: 0
-      e03: 501.6512
+      e03: 512.27246
       e10: 0
-      e11: 0.67608994
+      e11: 0.5333064
       e12: 0
-      e13: -137.64948
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.6612745
-      e01: 0
-      e02: 0
-      e03: 240.95232
-      e10: 0
-      e11: 0.6612745
-      e12: 0
-      e13: 89.17256
+      e13: -140.06134
       e20: 0
       e21: 0
       e22: 1
@@ -357,7 +340,7 @@ MonoBehaviour:
       e10: 0
       e11: 0.5292308
       e12: 0
-      e13: 49.107758
+      e13: 49.107697
       e20: 0
       e21: 0
       e22: 1
@@ -419,9 +402,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f4670000
-      m_LastClickedID: 26612
-      m_ExpandedIDs: fafaffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: c8abfefffcb50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -537,7 +520,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sprites/Slime
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -545,16 +528,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sprites/Slime
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\Users\gaming\Desktop\TFC\Pixel Dash
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b06c0000
-    m_LastClickedID: 27824
-    m_ExpandedIDs: 00000000526c0000546c000000ca9a3bffffff7f
+    m_SelectedIDs: dcba0000
+    m_LastClickedID: 47836
+    m_ExpandedIDs: 00000000b4ba0000b6ba000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -582,7 +565,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000526c0000546c0000
+    m_ExpandedIDs: 00000000b4ba0000b6ba0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -609,8 +592,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 00000000286c000058690000cc670000186a0000446a0000486a00004c6a0000c66900006e6c00008a6c00002e6c0000846c000016700000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 00000000286c000058690000cc670000186a0000446a0000486a00004c6a0000c66900006e6c00008a6c00002e6c0000846c000016700000e00700009a080000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -869,7 +852,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Light Settings
-      index: 2
+      index: 1
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1077,7 +1060,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Tilemap Focus
-      index: 1
+      index: 2
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -1105,9 +1088,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 162.92502, y: 1.0159066, z: 0.2625114}
+    m_Target: {x: 159.47209, y: 2.7150652, z: 0.23739257}
     speed: 2
-    m_Value: {x: 162.92502, y: 1.0159066, z: 0.2625114}
+    m_Value: {x: 159.47209, y: 2.7150652, z: 0.23739257}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1157,9 +1140,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.0612535
+    m_Target: 8.573136
     speed: 2
-    m_Value: 6.0612535
+    m_Value: 8.573136
   m_Ortho:
     m_Target: 1
     speed: 2
