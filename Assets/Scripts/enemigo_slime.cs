@@ -29,6 +29,9 @@ public class EnemigoSlime : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
 
+    [Header("Vida")]
+    public int vida = 3;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -134,10 +137,15 @@ public class EnemigoSlime : MonoBehaviour
         hitboxAtaque.SetActive(false);
     }
 
-    public void RecibirDaño()
+    public void RecibirDaño(int daño)
     {
+        vida -= daño;
         animator.SetTrigger("isHit");
-        // Aquí puedes añadir lógica de vida
+
+        if (vida <= 0)
+        {
+            Morir();
+        }
     }
 
     public void Morir()
@@ -148,4 +156,17 @@ public class EnemigoSlime : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
         GetComponent<Collider2D>().enabled = false;
     }
+
+    private float tiempoUltimoDaño;
+    public float cooldownDaño = 0.5f;
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("HitboxJugador") && Time.time - tiempoUltimoDaño > cooldownDaño)
+        {
+            RecibirDaño(1);
+            tiempoUltimoDaño = Time.time;
+        }
+    }
+
 }

@@ -57,11 +57,13 @@ public class MovimientoJugador : MonoBehaviour
     private bool levantandose = false;
 
      [Header("Ataques")]
-    public float duracionAtaque = 0.5f;
+    public float duracionAtaque = 0.7f;
     private bool atacando = false;
-    //private int comboPaso = 0;
-    //private float tiempoUltimoAtaque = 0f;
-    //public float tiempoMaximoEntreCombos = 2f;
+    
+
+    [Header("Hitbox de Ataque")]
+    [SerializeField] private GameObject hitboxAtaque;
+
 
     private BoxCollider2D boxCollider;
     private Vector2 colliderSizeOriginal;
@@ -354,7 +356,7 @@ public class MovimientoJugador : MonoBehaviour
         animator.SetBool("afk", false);
     }
 
-   IEnumerator RealizarAtaque(int numeroAtaque)
+  IEnumerator RealizarAtaque(int numeroAtaque)
     {
         atacando = true;
 
@@ -362,40 +364,50 @@ public class MovimientoJugador : MonoBehaviour
         animator.SetTrigger(trigger);
         animator.SetBool("isRunning", false);
 
-        // Esperar a que la animación actual termine antes de permitir otro ataque
-        float tiempoEspera = duracionAtaque;
+        float retrasoActivacionHitbox = 0.5f; // Ajusta este valor según tu animación
+        float duracionHitboxActiva = duracionAtaque - retrasoActivacionHitbox;
 
-        // Asegurar que se respete el tiempo entre combos (y permitir input justo antes de que termine)
-        yield return new WaitForSeconds(tiempoEspera - 0.1f);
+        // Esperar antes de activar la hitbox
+        yield return new WaitForSeconds(retrasoActivacionHitbox);
+
+        // Activar hitbox
+        hitboxAtaque.SetActive(true);
+
+        // Mantenerla activa por el resto de la duración del ataque
+        yield return new WaitForSeconds(duracionHitboxActiva);
+
+        // Desactivarla
+        hitboxAtaque.SetActive(false);
 
         atacando = false;
     }
 
+
     public void RecibirDaño(int daño)
     {
-       if (estaMuerto) return;
-
         vidaActual -= daño;
-        animator.SetTrigger("hurt");
-        Debug.Log("El jugador ha recibido daño. Vida actual: " + vidaActual);
+
+        if (vidaActual > 0)
+        {
+            animator.SetTrigger("hurt"); // Asegúrate de tener este trigger en el Animator
+        }
 
         if (vidaActual <= 0)
         {
-            Morir();
+            StartCoroutine(Morir());
         }
     }
 
-    private void Morir()
+    IEnumerator Morir()
     {
-        if (estaMuerto) return;
+        animator.SetTrigger("muerte");
+        GetComponent<Collider2D>().enabled = false; // Opcional: para evitar más colisiones
+        rb.velocity = Vector2.zero; // Detener movimiento
 
-        estaMuerto = true;
-        animator.SetTrigger("dead");
-        Debug.Log("El jugador ha muerto.");
+        yield return new WaitForSeconds(1f); // Espera duración de la animación
 
-        StartCoroutine(ReaparecerTrasMuerte());
+        Destroy(gameObject); // O gameObject.SetActive(false) si prefieres
     }
-
 
     IEnumerator ReaparecerTrasMuerte()
     {
@@ -410,5 +422,24 @@ public class MovimientoJugador : MonoBehaviour
         animator.Play("idle1"); // Asegúrate de que existe esta animación o cámbiala por otra válida
     }
 
+   
+    private bool puedeRecibirDaño = true;
+    public float tiempoInvulnerabilidad = 0.5f;
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("HitboxEnemigo") && puedeRecibirDaño && !estaMuerto)
+        {
+            RecibirDaño(1);
+            StartCoroutine(InvulnerabilidadTemporal());
+        }
+    }
+
+    IEnumerator InvulnerabilidadTemporal()
+    {
+        puedeRecibirDaño = false;
+        yield return new WaitForSeconds(tiempoInvulnerabilidad);
+        puedeRecibirDaño = true;
+    }
 
 }

@@ -35953,7 +35953,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 2696097,
-      "PayloadLength": 34348,
+      "PayloadLength": 34382,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -35965,7 +35965,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2730532,
+      "PayloadOffset": 2730566,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -36238,6 +36238,7 @@
         "Assets/Scripts/enemigo_slime.cs",
         "Assets/Scripts/GameManager.cs",
         "Assets/Scripts/HitboxAtaqueSlime.cs",
+        "Assets/Scripts/HitboxJugador.cs",
         "Assets/Scripts/ParallaxMovement.cs",
         "Assets/Scripts/PlayerMovement.cs",
         "Assets/Scripts/ZonaMuerte.cs",
@@ -36575,7 +36576,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2730628,
+      "PayloadOffset": 2730662,
       "PayloadLength": 11156,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -36864,9 +36865,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp",
       "DisplayName": "Writing 4747638433968585886.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2741873,
+      "PayloadOffset": 2741907,
       "PayloadLength": 45008,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/4747638433968585886.rsp"
@@ -37260,9 +37261,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13686715218353603589.rsp",
       "DisplayName": "Writing 13686715218353603589.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2786971,
+      "PayloadOffset": 2787005,
       "PayloadLength": 30037,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/13686715218353603589.rsp"
@@ -38240,9 +38241,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12812556936427222528.rsp",
       "DisplayName": "Writing 12812556936427222528.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2817098,
+      "PayloadOffset": 2817132,
       "PayloadLength": 31281,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/12812556936427222528.rsp"
@@ -39350,9 +39351,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12697856024727907050.rsp",
       "DisplayName": "Writing 12697856024727907050.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2848469,
+      "PayloadOffset": 2848503,
       "PayloadLength": 31292,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/12697856024727907050.rsp"
@@ -40462,9 +40463,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3410860103080533286.rsp",
       "DisplayName": "Writing 3410860103080533286.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2879850,
+      "PayloadOffset": 2879884,
       "PayloadLength": 30038,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3410860103080533286.rsp"
@@ -41574,9 +41575,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3648465134513896125.rsp",
       "DisplayName": "Writing 3648465134513896125.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2909977,
+      "PayloadOffset": 2910011,
       "PayloadLength": 31287,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3648465134513896125.rsp"
@@ -42686,9 +42687,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5806762800881712256.rsp",
       "DisplayName": "Writing 5806762800881712256.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2941353,
+      "PayloadOffset": 2941387,
       "PayloadLength": 31288,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/5806762800881712256.rsp"
@@ -43798,9 +43799,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10654656162358534522.rsp",
       "DisplayName": "Writing 10654656162358534522.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 2972731,
+      "PayloadOffset": 2972765,
       "PayloadLength": 30040,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/10654656162358534522.rsp"
@@ -44910,9 +44911,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/1418726328684876121.rsp",
       "DisplayName": "Writing 1418726328684876121.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3002860,
+      "PayloadOffset": 3002894,
       "PayloadLength": 29040,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/1418726328684876121.rsp"
@@ -46022,9 +46023,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/17346584914308636752.rsp",
       "DisplayName": "Writing 17346584914308636752.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3031990,
+      "PayloadOffset": 3032024,
       "PayloadLength": 30239,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/17346584914308636752.rsp"
@@ -47134,9 +47135,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11344994280883157806.rsp",
       "DisplayName": "Writing 11344994280883157806.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3062319,
+      "PayloadOffset": 3062353,
       "PayloadLength": 30050,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/11344994280883157806.rsp"
@@ -48246,9 +48247,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5916180605834378387.rsp",
       "DisplayName": "Writing 5916180605834378387.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3092458,
+      "PayloadOffset": 3092492,
       "PayloadLength": 30034,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/5916180605834378387.rsp"
@@ -49358,9 +49359,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/9111662996337956171.rsp",
       "DisplayName": "Writing 9111662996337956171.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3122581,
+      "PayloadOffset": 3122615,
       "PayloadLength": 30408,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/9111662996337956171.rsp"
@@ -50470,9 +50471,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5546506141355401238.rsp",
       "DisplayName": "Writing 5546506141355401238.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3153078,
+      "PayloadOffset": 3153112,
       "PayloadLength": 30034,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/5546506141355401238.rsp"
@@ -51582,9 +51583,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8899139255040401798.rsp",
       "DisplayName": "Writing 8899139255040401798.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3183201,
+      "PayloadOffset": 3183235,
       "PayloadLength": 30056,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/8899139255040401798.rsp"
@@ -52694,9 +52695,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8654950501350094070.rsp",
       "DisplayName": "Writing 8654950501350094070.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3213346,
+      "PayloadOffset": 3213380,
       "PayloadLength": 30417,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/8654950501350094070.rsp"
@@ -53812,9 +53813,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/2499735490941455596.rsp",
       "DisplayName": "Writing 2499735490941455596.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3243852,
+      "PayloadOffset": 3243886,
       "PayloadLength": 31327,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/2499735490941455596.rsp"
@@ -54926,9 +54927,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5521740788080646575.rsp",
       "DisplayName": "Writing 5521740788080646575.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3275268,
+      "PayloadOffset": 3275302,
       "PayloadLength": 31465,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/5521740788080646575.rsp"
@@ -56044,9 +56045,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3258459190130463912.rsp",
       "DisplayName": "Writing 3258459190130463912.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3306822,
+      "PayloadOffset": 3306856,
       "PayloadLength": 30099,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3258459190130463912.rsp"
@@ -57158,9 +57159,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/7038082120299526273.rsp",
       "DisplayName": "Writing 7038082120299526273.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3337010,
+      "PayloadOffset": 3337044,
       "PayloadLength": 30111,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/7038082120299526273.rsp"
@@ -58272,9 +58273,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/7634377931854478575.rsp",
       "DisplayName": "Writing 7634377931854478575.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3367210,
+      "PayloadOffset": 3367244,
       "PayloadLength": 31356,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/7634377931854478575.rsp"
@@ -59386,9 +59387,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/16942202937359522267.rsp",
       "DisplayName": "Writing 16942202937359522267.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3398656,
+      "PayloadOffset": 3398690,
       "PayloadLength": 31425,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/16942202937359522267.rsp"
@@ -60502,9 +60503,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12248871281822510316.rsp",
       "DisplayName": "Writing 12248871281822510316.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3430171,
+      "PayloadOffset": 3430205,
       "PayloadLength": 31336,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/12248871281822510316.rsp"
@@ -61616,9 +61617,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3938377011463375229.rsp",
       "DisplayName": "Writing 3938377011463375229.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3461596,
+      "PayloadOffset": 3461630,
       "PayloadLength": 31354,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3938377011463375229.rsp"
@@ -62730,9 +62731,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/2157608619508796868.rsp",
       "DisplayName": "Writing 2157608619508796868.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3493039,
+      "PayloadOffset": 3493073,
       "PayloadLength": 30146,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/2157608619508796868.rsp"
@@ -63846,9 +63847,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3064155424177982801.rsp",
       "DisplayName": "Writing 3064155424177982801.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3523274,
+      "PayloadOffset": 3523308,
       "PayloadLength": 30099,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3064155424177982801.rsp"
@@ -64960,9 +64961,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11294775302662683298.rsp",
       "DisplayName": "Writing 11294775302662683298.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3553463,
+      "PayloadOffset": 3553497,
       "PayloadLength": 28931,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/11294775302662683298.rsp"
@@ -66074,9 +66075,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11295897478892413411.rsp",
       "DisplayName": "Writing 11295897478892413411.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3582484,
+      "PayloadOffset": 3582518,
       "PayloadLength": 31362,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/11295897478892413411.rsp"
@@ -67188,9 +67189,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/14814235663552238418.rsp",
       "DisplayName": "Writing 14814235663552238418.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3613936,
+      "PayloadOffset": 3613970,
       "PayloadLength": 31348,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/14814235663552238418.rsp"
@@ -68302,9 +68303,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10292501669419677951.rsp",
       "DisplayName": "Writing 10292501669419677951.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3645374,
+      "PayloadOffset": 3645408,
       "PayloadLength": 31348,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/10292501669419677951.rsp"
@@ -69416,9 +69417,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/4772145154433932943.rsp",
       "DisplayName": "Writing 4772145154433932943.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3676811,
+      "PayloadOffset": 3676845,
       "PayloadLength": 31367,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/4772145154433932943.rsp"
@@ -70530,9 +70531,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10571807241835812913.rsp",
       "DisplayName": "Writing 10571807241835812913.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3708268,
+      "PayloadOffset": 3708302,
       "PayloadLength": 30254,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/10571807241835812913.rsp"
@@ -71644,9 +71645,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/11932646040550446581.rsp",
       "DisplayName": "Writing 11932646040550446581.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3738612,
+      "PayloadOffset": 3738646,
       "PayloadLength": 30354,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/11932646040550446581.rsp"
@@ -72766,9 +72767,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6210570011482043853.rsp",
       "DisplayName": "Writing 6210570011482043853.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3769055,
+      "PayloadOffset": 3769089,
       "PayloadLength": 31547,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/6210570011482043853.rsp"
@@ -73888,9 +73889,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8336928665352126947.rsp",
       "DisplayName": "Writing 8336928665352126947.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3800691,
+      "PayloadOffset": 3800725,
       "PayloadLength": 31528,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/8336928665352126947.rsp"
@@ -75008,9 +75009,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/1410676725171572189.rsp",
       "DisplayName": "Writing 1410676725171572189.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3832308,
+      "PayloadOffset": 3832342,
       "PayloadLength": 30249,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/1410676725171572189.rsp"
@@ -76126,9 +76127,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/17766336155681823506.rsp",
       "DisplayName": "Writing 17766336155681823506.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3862647,
+      "PayloadOffset": 3862681,
       "PayloadLength": 31416,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/17766336155681823506.rsp"
@@ -77244,9 +77245,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3818794330681902346.rsp",
       "DisplayName": "Writing 3818794330681902346.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3894152,
+      "PayloadOffset": 3894186,
       "PayloadLength": 31356,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3818794330681902346.rsp"
@@ -78362,9 +78363,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3388064732626934676.rsp",
       "DisplayName": "Writing 3388064732626934676.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3925597,
+      "PayloadOffset": 3925631,
       "PayloadLength": 31366,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3388064732626934676.rsp"
@@ -79478,9 +79479,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/5249134988916615986.rsp",
       "DisplayName": "Writing 5249134988916615986.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3957052,
+      "PayloadOffset": 3957086,
       "PayloadLength": 30418,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/5249134988916615986.rsp"
@@ -80594,9 +80595,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/9321109326917711913.rsp",
       "DisplayName": "Writing 9321109326917711913.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 3987559,
+      "PayloadOffset": 3987593,
       "PayloadLength": 31730,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/9321109326917711913.rsp"
@@ -81716,9 +81717,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13439087796855272166.rsp",
       "DisplayName": "Writing 13439087796855272166.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4019379,
+      "PayloadOffset": 4019413,
       "PayloadLength": 31872,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/13439087796855272166.rsp"
@@ -82846,9 +82847,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/17738801749825545598.rsp",
       "DisplayName": "Writing 17738801749825545598.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4051341,
+      "PayloadOffset": 4051375,
       "PayloadLength": 31635,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/17738801749825545598.rsp"
@@ -83974,9 +83975,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/15312589170787849123.rsp",
       "DisplayName": "Writing 15312589170787849123.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4083066,
+      "PayloadOffset": 4083100,
       "PayloadLength": 31643,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/15312589170787849123.rsp"
@@ -85094,9 +85095,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/4691676790321305727.rsp",
       "DisplayName": "Writing 4691676790321305727.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4114798,
+      "PayloadOffset": 4114832,
       "PayloadLength": 30180,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/4691676790321305727.rsp"
@@ -86212,9 +86213,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/13445476680238899994.rsp",
       "DisplayName": "Writing 13445476680238899994.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4145068,
+      "PayloadOffset": 4145102,
       "PayloadLength": 31690,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/13445476680238899994.rsp"
@@ -87346,9 +87347,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/3043913547040211301.rsp",
       "DisplayName": "Writing 3043913547040211301.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4176847,
+      "PayloadOffset": 4176881,
       "PayloadLength": 31868,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/3043913547040211301.rsp"
@@ -88480,9 +88481,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/1723042715960067801.rsp",
       "DisplayName": "Writing 1723042715960067801.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4208804,
+      "PayloadOffset": 4208838,
       "PayloadLength": 31665,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/1723042715960067801.rsp"
@@ -89604,9 +89605,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/7759033573704817190.rsp",
       "DisplayName": "Writing 7759033573704817190.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4240558,
+      "PayloadOffset": 4240592,
       "PayloadLength": 31654,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/7759033573704817190.rsp"
@@ -90728,9 +90729,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/2240406767038398906.rsp",
       "DisplayName": "Writing 2240406767038398906.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4272301,
+      "PayloadOffset": 4272335,
       "PayloadLength": 31731,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/2240406767038398906.rsp"
@@ -91854,9 +91855,9 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/10678863128556690338.rsp",
       "DisplayName": "Writing 10678863128556690338.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 4304122,
+      "PayloadOffset": 4304156,
       "PayloadLength": 31858,
-      "PayloadDebugContentSnippet": "\"unity-ilpp-8fe979f279394de63a",
+      "PayloadDebugContentSnippet": "\"unity-ilpp-a18579781e73f947dc",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/10678863128556690338.rsp"
@@ -94706,7 +94707,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Cinemachine.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.2D.Animation.Runtime.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.2D.Common.Runtime.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.2D.IK.Runtime.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.2D.PixelPerfect.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.2D.Tilemap.Extras.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.Burst.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.Collections.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.Mathematics.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Mdb.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Pdb.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Rocks.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.Unsafe.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel Dash\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Cinemachine.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.2D.Animation.Runtime.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.2D.Common.Runtime.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.2D.IK.Runtime.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.2D.PixelPerfect.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.2D.Tilemap.Extras.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.Burst.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.Collections.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.Mathematics.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Mdb.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Pdb.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Rocks.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.Unsafe.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.burst@1.8.15\\Unity.Burst.CodeGen\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -95129,6 +95130,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "C:/Users/gaming/Desktop/TFC/Pixel Dash/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "C:/Users/gaming/Desktop/TFC/Pixel_Dash/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

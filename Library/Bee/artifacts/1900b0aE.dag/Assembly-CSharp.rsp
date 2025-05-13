@@ -382,6 +382,7 @@
 "Assets/Scripts/enemigo_slime.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HitboxAtaqueSlime.cs"
+"Assets/Scripts/HitboxJugador.cs"
 "Assets/Scripts/ParallaxMovement.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/ZonaMuerte.cs"

@@ -8,6 +8,9 @@ TagManager:
   - Jugador
   - ZonaMuerte
   - Checkpoint
+  - Enemigo
+  - HitboxJugador
+  - HitboxEnemigo
   layers:
   - Default
   - TransparentFX
