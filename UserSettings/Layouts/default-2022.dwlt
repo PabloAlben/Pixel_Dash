@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 141
+  controlID: 143
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d2670000
-      m_LastClickedID: 26578
-      m_ExpandedIDs: fafaffff84670000d2670000f6670000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: fafaffff846700008a670000d2670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -520,7 +520,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sprites/BG2
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -528,15 +528,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sprites/BG2
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\Users\gaming\Desktop\TFC\Pixel_Dash
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a46c0000
-    m_LastClickedID: 27812
+    m_SelectedIDs: a66c0000
+    m_LastClickedID: 27814
     m_ExpandedIDs: 00000000466c0000486c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1088,9 +1088,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -16.432934, y: 0.71945703, z: 0.19118631}
+    m_Target: {x: 262.29242, y: 9.546749, z: 0.2638068}
     speed: 2
-    m_Value: {x: -15.680167, y: 0.5949501, z: 0.19686782}
+    m_Value: {x: 262.12064, y: 9.740361, z: 0.2610117}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1140,9 +1140,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.19377
+    m_Target: 5.9317374
     speed: 2
-    m_Value: 12.625618
+    m_Value: 6.211243
   m_Ortho:
     m_Target: 1
     speed: 2
