@@ -9,6 +9,8 @@ public class MovimientoJugador : MonoBehaviour
     public float fuerzaSalto = 8f;
     public LayerMask suelo;
 
+    public VidaJugadorUI uiVida;
+
     public int vidaMaxima = 5;
     private int vidaActual;
 
@@ -387,6 +389,8 @@ public class MovimientoJugador : MonoBehaviour
     {
         vidaActual -= daño;
 
+        uiVida.ActualizarVida(vidaActual, vidaMaxima);
+
         if (vidaActual > 0)
         {
             animator.SetTrigger("hurt"); // Asegúrate de tener este trigger en el Animator
@@ -400,18 +404,21 @@ public class MovimientoJugador : MonoBehaviour
 
     IEnumerator Morir()
     {
-        animator.SetTrigger("muerte");
-        GetComponent<Collider2D>().enabled = false; // Opcional: para evitar más colisiones
+        animator.SetTrigger("dead");
+        
         rb.velocity = Vector2.zero; // Detener movimiento
 
         yield return new WaitForSeconds(1f); // Espera duración de la animación
 
-        Destroy(gameObject); // O gameObject.SetActive(false) si prefieres
+        StartCoroutine(ReaparecerTrasMuerte());
+
     }
 
     IEnumerator ReaparecerTrasMuerte()
     {
-        yield return new WaitForSeconds(3f); // Espera la duración de la animación de muerte (ajusta si es necesario)
+        yield return new WaitForSeconds(2f); // Espera la duración de la animación de muerte (ajusta si es necesario)
+
+        uiVida.ActualizarVida(vidaMaxima, vidaMaxima);
 
         transform.position = ultimoCheckpoint;
         rb.velocity = Vector2.zero;

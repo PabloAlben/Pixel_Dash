@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\HitboxJugador.cs" />
     <Compile Include="Assets\Scripts\ZonaMuerte.cs" />
     <Compile Include="Assets\Scripts\HitboxAtaqueSlime.cs" />
+    <Compile Include="Assets\Scripts\VidaJugadorUI.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\enemigo_slime.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
