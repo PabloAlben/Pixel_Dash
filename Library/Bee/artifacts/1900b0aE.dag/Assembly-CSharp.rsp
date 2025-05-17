@@ -383,6 +383,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HitboxAtaqueSlime.cs"
 "Assets/Scripts/HitboxJugador.cs"
+"Assets/Scripts/MenuPausa.cs"
 "Assets/Scripts/ParallaxMovement.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/VidaJugadorUI.cs"
