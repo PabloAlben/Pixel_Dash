@@ -58,10 +58,10 @@ public class MovimientoJugador : MonoBehaviour
     private bool sentado = false;
     private bool levantandose = false;
 
-     [Header("Ataques")]
+    [Header("Ataques")]
     public float duracionAtaque = 0.7f;
     private bool atacando = false;
-    
+
 
     [Header("Hitbox de Ataque")]
     [SerializeField] private GameObject hitboxAtaque;
@@ -304,7 +304,7 @@ public class MovimientoJugador : MonoBehaviour
         puedeCorrer = true;
     }
 
-   IEnumerator RealizarSlide()
+    IEnumerator RealizarSlide()
     {
         haciendoSlide = true;
         animator.SetTrigger("slide");
@@ -358,7 +358,7 @@ public class MovimientoJugador : MonoBehaviour
         animator.SetBool("afk", false);
     }
 
-  IEnumerator RealizarAtaque(int numeroAtaque)
+    IEnumerator RealizarAtaque(int numeroAtaque)
     {
         atacando = true;
 
@@ -405,7 +405,7 @@ public class MovimientoJugador : MonoBehaviour
     IEnumerator Morir()
     {
         animator.SetTrigger("dead");
-        
+
         rb.velocity = Vector2.zero; // Detener movimiento
 
         yield return new WaitForSeconds(1f); // Espera duración de la animación
@@ -429,7 +429,7 @@ public class MovimientoJugador : MonoBehaviour
         animator.Play("idle1"); // Asegúrate de que existe esta animación o cámbiala por otra válida
     }
 
-   
+
     private bool puedeRecibirDaño = true;
     public float tiempoInvulnerabilidad = 0.5f;
 
@@ -447,6 +447,15 @@ public class MovimientoJugador : MonoBehaviour
         puedeRecibirDaño = false;
         yield return new WaitForSeconds(tiempoInvulnerabilidad);
         puedeRecibirDaño = true;
+    }
+    
+    public void Curar(int cantidad)
+    {
+        vidaActual += cantidad;
+        if (vidaActual > vidaMaxima)
+            vidaActual = vidaMaxima;
+
+        uiVida.ActualizarVida(vidaActual, vidaMaxima);
     }
 
 }
