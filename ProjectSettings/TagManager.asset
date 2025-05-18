@@ -11,6 +11,7 @@ TagManager:
   - Enemigo
   - HitboxJugador
   - HitboxEnemigo
+  - SaltoExtra
   layers:
   - Default
   - TransparentFX

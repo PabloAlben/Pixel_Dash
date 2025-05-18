@@ -74,6 +74,7 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] private Vector2 colliderSizeSlide = new Vector2(1f, 0.4f);
     [SerializeField] private Vector2 colliderOffsetSlide = new Vector2(0f, 0.1f);
 
+    private bool puedeSaltoExtra = false;
 
 
     void Start()
@@ -167,12 +168,22 @@ public class MovimientoJugador : MonoBehaviour
         }
 
         // SALTO
-        if (Input.GetKeyDown(KeyCode.Space) && enSuelo)
+       if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
-            animator.SetTrigger(Mathf.Abs(movimiento) > 0.01f ? "saltomovimiento" : "salto");
-            animator.SetBool("isRunning", false);
+            if (enSuelo)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
+                animator.SetTrigger(Mathf.Abs(movimiento) > 0.01f ? "saltomovimiento" : "salto");
+                animator.SetBool("isRunning", false);
+            }
+            else if (puedeSaltoExtra)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
+                animator.SetTrigger(Mathf.Abs(movimiento) > 0.01f ? "saltomovimiento" : "salto");
+                puedeSaltoExtra = false; // consumir el salto extra
+            }
         }
+
 
         if (Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0)
         {
@@ -271,6 +282,11 @@ public class MovimientoJugador : MonoBehaviour
         {
             transform.position = ultimoCheckpoint;
             rb.velocity = Vector2.zero;
+        }
+        else if (collision.CompareTag("SaltoExtra"))
+        {
+            puedeSaltoExtra = true;
+            Destroy(collision.gameObject); // elimina la esfera si solo se puede usar una vez
         }
     }
 
@@ -440,8 +456,8 @@ public class MovimientoJugador : MonoBehaviour
             RecibirDaño(1);
             StartCoroutine(InvulnerabilidadTemporal());
         }
-    }
-
+       
+    } 
     IEnumerator InvulnerabilidadTemporal()
     {
         puedeRecibirDaño = false;
