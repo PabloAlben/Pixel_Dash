@@ -387,6 +387,7 @@
 "Assets/Scripts/MenuPausa.cs"
 "Assets/Scripts/ParallaxMovement.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/SaltoExtra.cs"
 "Assets/Scripts/VidaJugadorUI.cs"
 "Assets/Scripts/ZonaMuerte.cs"
 -langversion:9.0

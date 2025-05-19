@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.31f1 (4ede2d13e8b4) revision 5168685'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16253 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16255 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/gaming/Desktop/TFC/Pixel_Dash
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52818
+51577
 Successfully changed project path to: C:/Users/gaming/Desktop/TFC/Pixel_Dash
 C:/Users/gaming/Desktop/TFC/Pixel_Dash
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/gaming/Desktop/TFC/Pixel_Dash
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22320] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1265344619 [EditorId] 1265344619 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2910EP1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1392] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3388848737 [EditorId] 3388848737 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2910EP1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22320] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1265344619 [EditorId] 1265344619 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2910EP1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1392] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3388848737 [EditorId] 3388848737 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2910EP1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 201.57 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011578 seconds.
-- Loaded All Assemblies, in  1.164 seconds
+Registered in 0.009921 seconds.
+- Loaded All Assemblies, in  0.323 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.316 seconds
-Domain Reload Profiling: 1477ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 585ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (211ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (733ms)
-		LoadAssemblies (129ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (97ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (730ms)
-			TypeCache.Refresh (729ms)
-				TypeCache.ScanAssembly (714ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (109ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (316ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (264ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (247ms)
+		SetupLoadedEditorAssemblies (201ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (163ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,52 +117,52 @@ Domain Reload Profiling: 1477ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.995 seconds
-Refreshing native plugins compatible for Editor in 5.92 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.676 seconds
+Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.022 seconds
-Domain Reload Profiling: 2012ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1493ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (670ms)
-		LoadAssemblies (519ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (352ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (151ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1022ms)
+	FinalizeReload (821ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (802ms)
+		SetupLoadedEditorAssemblies (668ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (654ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 5.99 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4635 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (318.9 KB). Loaded Objects now: 5092.
+Unloading 4636 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (319.1 KB). Loaded Objects now: 5093.
 Memory consumption went from 158.2 MB to 157.9 MB.
-Total: 5.303200 ms (FindLiveObjects: 0.296900 ms CreateObjectMapping: 0.167400 ms MarkObjects: 4.480900 ms  DeleteObjects: 0.356400 ms)
+Total: 3.784300 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.136700 ms MarkObjects: 3.033000 ms  DeleteObjects: 0.340400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,772 +179,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 104168.966150 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_11.asset
-  artifactKey: Guid(3c90ae4e4b832254ba0965c25194a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_11.asset using Guid(3c90ae4e4b832254ba0965c25194a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '02a6919bc81212a62a3e1abe9e4c5bab') in 0.080380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.212170 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_13.asset
-  artifactKey: Guid(72b98fb35441d0b4fbe906314f8e6267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_13.asset using Guid(72b98fb35441d0b4fbe906314f8e6267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cce199bd4e0bae80ce2fad58d5660e4b') in 0.014040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.013302 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_14.asset
-  artifactKey: Guid(39ed908080023fa4ca1f1cd366eeeb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_14.asset using Guid(39ed908080023fa4ca1f1cd366eeeb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a4a480faea41bea32fffda2871193083') in 0.021122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.012403 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_16.asset
-  artifactKey: Guid(1c1df8dafb3a5164685ca501e4ff52d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_16.asset using Guid(1c1df8dafb3a5164685ca501e4ff52d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '448a4ccb7f0259a08eef393785bf7b84') in 0.016688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.865765 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_17.asset
-  artifactKey: Guid(efd73c089affb644ab949c52a0fa97a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_17.asset using Guid(efd73c089affb644ab949c52a0fa97a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '65510f53e189292b0a48d907bc3f2d85') in 0.015116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_19.asset
-  artifactKey: Guid(45a2ca1bab67a7b4db5760c676473960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_19.asset using Guid(45a2ca1bab67a7b4db5760c676473960) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f87b4e8e8ad1a51076e2ac38d0169e88') in 0.016792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.003918 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_21.asset
-  artifactKey: Guid(73192cf549bcc9d46a5bd0b258cafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_21.asset using Guid(73192cf549bcc9d46a5bd0b258cafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '436012a0ded5dfb02fa8b0fd1596ac36') in 0.016499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.003361 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_24.asset
-  artifactKey: Guid(7c61a344f20c6744f9a71b62bc4c1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_24.asset using Guid(7c61a344f20c6744f9a71b62bc4c1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '85bbb68f90104685dc7d896739983358') in 0.021723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_32.asset
-  artifactKey: Guid(91afd5a83c6fb6a458a6af6aba848d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_32.asset using Guid(91afd5a83c6fb6a458a6af6aba848d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4a30b21cafa351006421935a0ff49244') in 0.020510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_36.asset
-  artifactKey: Guid(988b9cbd053cbf94db01d74f841a8341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_36.asset using Guid(988b9cbd053cbf94db01d74f841a8341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bec66bbfe3bf9ddbda59a15a919a542a') in 0.027775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_52.asset
-  artifactKey: Guid(72e1ff55b67214e4a9887daef92d9e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_52.asset using Guid(72e1ff55b67214e4a9887daef92d9e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '330508dcb91088a24b4e246d26f0ce84') in 0.022266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_54.asset
-  artifactKey: Guid(8832a547d3c36e445a1ba6a3c9a5c987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_54.asset using Guid(8832a547d3c36e445a1ba6a3c9a5c987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '94aa8ca05dd27f1e7784476be425bac9') in 0.020276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_56.asset
-  artifactKey: Guid(71940401f0991bc43a973b4a9cac2517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_56.asset using Guid(71940401f0991bc43a973b4a9cac2517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bbceb67a78aa946d060d2f4841c702f8') in 0.017018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_75.asset
-  artifactKey: Guid(9f6a4c74e87d5a74ca7498e5bf56bd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_75.asset using Guid(9f6a4c74e87d5a74ca7498e5bf56bd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '21fd10aefb1362fff8a1ac81fc3cbb77') in 0.015110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_102.asset
-  artifactKey: Guid(113e5d38f8d9644458a9b51f861b295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_102.asset using Guid(113e5d38f8d9644458a9b51f861b295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1a4bc7e1affeeee848107afd21157406') in 0.019428 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_80.asset
-  artifactKey: Guid(13465a258ba9055478bfe3d497a45298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_80.asset using Guid(13465a258ba9055478bfe3d497a45298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'da57630163e0f06bf9d7ea1db73878d1') in 0.017576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_119.asset
-  artifactKey: Guid(d50192f5253f2bc49aff5e6b56efa7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_119.asset using Guid(d50192f5253f2bc49aff5e6b56efa7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'be7bc6efa00d541b27e2d722bc660db8') in 0.018204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_122.asset
-  artifactKey: Guid(e615c557b1ac7654897b9f5bc8040f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_122.asset using Guid(e615c557b1ac7654897b9f5bc8040f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9084be697bd24efa6d11469d7a3260f2') in 0.017547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_127.asset
-  artifactKey: Guid(1954f488895b4ae43b7c2e9ca41feb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_127.asset using Guid(1954f488895b4ae43b7c2e9ca41feb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bdb3f312062f9b9a265420c47f1773da') in 0.016648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_33.asset
-  artifactKey: Guid(bb7401a80aa3cee4188b4800108b5b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_33.asset using Guid(bb7401a80aa3cee4188b4800108b5b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ea97f966349f4e22288f558987109c67') in 0.019313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_136.asset
-  artifactKey: Guid(85eb8bbc357e3b2479cba4ed8882783e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_136.asset using Guid(85eb8bbc357e3b2479cba4ed8882783e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'da2e0583463c9a56d860811b500e055c') in 0.015440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_141.asset
-  artifactKey: Guid(956c76241c791c24cb72af0e97c4dcac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_141.asset using Guid(956c76241c791c24cb72af0e97c4dcac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '077e5493b6ed2b522da8963fc1c4d2e2') in 0.016350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_26.asset
-  artifactKey: Guid(b4686e0e090cf904abed08672b43409d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_26.asset using Guid(b4686e0e090cf904abed08672b43409d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4abc4651dd219235810c9756ce7fa7a8') in 0.016304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_107.asset
-  artifactKey: Guid(4cc0a5758fc2e5347aa2b2f4a6d17404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_107.asset using Guid(4cc0a5758fc2e5347aa2b2f4a6d17404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8086e689014962195031dec76fc6b28b') in 0.019838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_142.asset
-  artifactKey: Guid(5db86eec11ae4ba4b9d98053b7addd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_142.asset using Guid(5db86eec11ae4ba4b9d98053b7addd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f099f693893466de7641bb3565c00a9e') in 0.024753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_99.asset
-  artifactKey: Guid(661bbf90a27ce5b4485cadfe1f47ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_99.asset using Guid(661bbf90a27ce5b4485cadfe1f47ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '78d28aec4057d8ef1a4e2cf9155d4c23') in 0.035615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_25.asset
-  artifactKey: Guid(1ed28563dc76b9344a03490b946d84a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_25.asset using Guid(1ed28563dc76b9344a03490b946d84a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5476e79cace14cb0c36b79241425ca53') in 0.034348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_37.asset
-  artifactKey: Guid(b2f2b398625962e45be0bd0be54a6475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_37.asset using Guid(b2f2b398625962e45be0bd0be54a6475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c392e6584d9a8ace8eb3fbe8104082e4') in 0.028087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_43.asset
-  artifactKey: Guid(6c65ba1334807f24099ec038fe20250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_43.asset using Guid(6c65ba1334807f24099ec038fe20250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '507184dc519abdb5415e972c00ec657d') in 0.030130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_150.asset
-  artifactKey: Guid(73a0c57453d6bc741a28ca85164dec5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_150.asset using Guid(73a0c57453d6bc741a28ca85164dec5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0372fd496cce115f3cc11bc1735d0b40') in 0.020818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_113.asset
-  artifactKey: Guid(675e3216050a8e54a96b21e477295454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_113.asset using Guid(675e3216050a8e54a96b21e477295454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2e1d070b5dc00554ff225948698ac773') in 0.023050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_89.asset
-  artifactKey: Guid(18b90ff2757749542a803931be288dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_89.asset using Guid(18b90ff2757749542a803931be288dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4dca8da7b8f4453e1b8a34aab23c718c') in 0.008889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_53.asset
-  artifactKey: Guid(f73757f7468aaf3439354993453a3e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_53.asset using Guid(f73757f7468aaf3439354993453a3e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ee80b716f2350c7e101cb7efb8727a7e') in 0.023816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_71.asset
-  artifactKey: Guid(fbb0f1de98849674cab4c5c50aa34b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_71.asset using Guid(fbb0f1de98849674cab4c5c50aa34b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f3c8e3381a975e56f92e7707fbc14e66') in 0.021613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_72.asset
-  artifactKey: Guid(f2f89e83b420ed649ab6e2e00e51221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_72.asset using Guid(f2f89e83b420ed649ab6e2e00e51221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '929f56f2ad0528961e46f3ee8650a598') in 0.008641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_123.asset
-  artifactKey: Guid(e07ceadedf2ca0b43b07be3ca6cc6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_123.asset using Guid(e07ceadedf2ca0b43b07be3ca6cc6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd60aa2c539b63314490d3292450b9213') in 0.020983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_112.asset
-  artifactKey: Guid(2a839bcfafc70e444989b82e05ca6d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_112.asset using Guid(2a839bcfafc70e444989b82e05ca6d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fd6ce60b909ea1feea5aa3f366a43444') in 0.019560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_22.asset
-  artifactKey: Guid(6e355950268d4a34997fd51ba6cd0090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_22.asset using Guid(6e355950268d4a34997fd51ba6cd0090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '81bd10a8443c83d26f7c4e36ea4c802a') in 0.019829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_94.asset
-  artifactKey: Guid(ba055fa0aa557ce419ff6f56d4a90ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_94.asset using Guid(ba055fa0aa557ce419ff6f56d4a90ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '300cff40d445915ef5fa0e6e3d1f79b7') in 0.019255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_148.asset
-  artifactKey: Guid(f304219f7d08b3d4490db1c1b235f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_148.asset using Guid(f304219f7d08b3d4490db1c1b235f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5488c15ecd5d7bb019f933ffc7a2fdec') in 0.018050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_126.asset
-  artifactKey: Guid(c9dd64d362752c04c9e81ca7912e6a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_126.asset using Guid(c9dd64d362752c04c9e81ca7912e6a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '595d82106b5df3aeca03ddcfd62f414d') in 0.025433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_143.asset
-  artifactKey: Guid(34419a7547eb4dc40bc1da890bd21299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_143.asset using Guid(34419a7547eb4dc40bc1da890bd21299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6635440d6c901c713a7c6c9a2fce0152') in 0.025257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_105.asset
-  artifactKey: Guid(ad5869973befdaa4aad059bc900d9712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_105.asset using Guid(ad5869973befdaa4aad059bc900d9712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '17c8ff08b1c26180a3c577dfd378ed68') in 0.015789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_120.asset
-  artifactKey: Guid(ccd25ee352bfd434794344bf233c4ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_120.asset using Guid(ccd25ee352bfd434794344bf233c4ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ad59aef28a7bd095c2cd45e3245c0ef3') in 0.016667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_74.asset
-  artifactKey: Guid(c7a5e0f05aaf05844a5531d3573f63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_74.asset using Guid(c7a5e0f05aaf05844a5531d3573f63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd8a8b0ae7c4f56e0fe93ef0e27441b63') in 0.017355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_116.asset
-  artifactKey: Guid(44fcb988df7d8334f88daa57d55c35b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_116.asset using Guid(44fcb988df7d8334f88daa57d55c35b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '25bb2e8528f48e8e91dee09af916c71a') in 0.020005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_115.asset
-  artifactKey: Guid(b0012d7a865d5e04297a10bc86ddb3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_115.asset using Guid(b0012d7a865d5e04297a10bc86ddb3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2ea891d142e93cfde15f4900ee1c17e8') in 0.019245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_128.asset
-  artifactKey: Guid(c593b2814b5dd7d4e946a9349bfa9b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_128.asset using Guid(c593b2814b5dd7d4e946a9349bfa9b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a653a856ec2769cdb25d006b46e49a63') in 0.018053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_111.asset
-  artifactKey: Guid(8c695d111d3c2304c8d45e66ce8e8447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_111.asset using Guid(8c695d111d3c2304c8d45e66ce8e8447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5aa653cd03d24264320b453e2d601985') in 0.017340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_27.asset
-  artifactKey: Guid(ee09ded7bfe703943aa2fd059d8732f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_27.asset using Guid(ee09ded7bfe703943aa2fd059d8732f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5e1298c5397a0976bc711d6813cae783') in 0.018652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_147.asset
-  artifactKey: Guid(0dbbacd0d296fbb4993c9d2f7a357a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_147.asset using Guid(0dbbacd0d296fbb4993c9d2f7a357a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0f286377064d12e602d1ad9ddac7c9f8') in 0.017923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_88.asset
-  artifactKey: Guid(30d19bb85d2fbed41bd9706cf27c9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_88.asset using Guid(30d19bb85d2fbed41bd9706cf27c9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '335526c8e70f4882219792d3545bf4d7') in 0.009003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_114.asset
-  artifactKey: Guid(51eead3b5d8b84943bcd1e688c3fa2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_114.asset using Guid(51eead3b5d8b84943bcd1e688c3fa2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b856fdd4b9e08ad0d5be194ffe246baf') in 0.021463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_42.asset
-  artifactKey: Guid(0120f5cd34d9edd42beb9fe6cd334e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_42.asset using Guid(0120f5cd34d9edd42beb9fe6cd334e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e15384ca6cc509f67cfa84dfd296f081') in 0.021688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_132.asset
-  artifactKey: Guid(9eb465c062c01c048b9fca2d538a63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_132.asset using Guid(9eb465c062c01c048b9fca2d538a63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bd5ed32d51e4ed34099294a4c95a3395') in 0.026057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_38.asset
-  artifactKey: Guid(9751ef021123a0c40b29c506fe79e379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_38.asset using Guid(9751ef021123a0c40b29c506fe79e379) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '27ca8123bbdaa953a0a73de32a9910b7') in 0.036146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_101.asset
-  artifactKey: Guid(9d387be9f716b4c449e4eed624b74462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_101.asset using Guid(9d387be9f716b4c449e4eed624b74462) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ecb81b9984ff93fb2470dc516e7cb130') in 0.028344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_70.asset
-  artifactKey: Guid(9ff679acf012ff947826981e2ad42fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_70.asset using Guid(9ff679acf012ff947826981e2ad42fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '40b2bca3eea71fdc8b13a759e1a605bd') in 0.024514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_57.asset
-  artifactKey: Guid(23057ff4bfd9f3d498885c3060727cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_57.asset using Guid(23057ff4bfd9f3d498885c3060727cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '03a2b04c7fe45d16bffd8a5f1d5ee039') in 0.019542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_118.asset
-  artifactKey: Guid(e8e4eb0230737b349b7afcfdcaeb950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_118.asset using Guid(e8e4eb0230737b349b7afcfdcaeb950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fab6754bbaf65f201094ca70fec04f8d') in 0.021616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_73.asset
-  artifactKey: Guid(192c688c547b8204c910d801bc83a450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_73.asset using Guid(192c688c547b8204c910d801bc83a450) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '78b011e7638a69f493542487ed9d86bf') in 0.009002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_100.asset
-  artifactKey: Guid(0cf34c419d138784c8b8b0270c58baec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_100.asset using Guid(0cf34c419d138784c8b8b0270c58baec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'aab0673d2a368507505cf6f344341d17') in 0.023033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_60.asset
-  artifactKey: Guid(ec91e49a7054dde428eb355c24a3221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_60.asset using Guid(ec91e49a7054dde428eb355c24a3221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7b8898382a16705b6b0f520bdf7c9f1e') in 0.019384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_98.asset
-  artifactKey: Guid(cd77245592bc6cf449299ff11416e1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_98.asset using Guid(cd77245592bc6cf449299ff11416e1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b82fe20e2f0a1d7066cc29576b944774') in 0.017991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_104.asset
-  artifactKey: Guid(78e93cb107ebce9408927304658d184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_104.asset using Guid(78e93cb107ebce9408927304658d184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'eca81f4103eeb8a9a30091e77ffb3401') in 0.018479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_130.asset
-  artifactKey: Guid(f65dfd3af5deea54096f2c3ec6e37c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_130.asset using Guid(f65dfd3af5deea54096f2c3ec6e37c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'de7b311fdfde1cff13a49ff794cde8bf') in 0.017947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_140.asset
-  artifactKey: Guid(1606494c313c2fc4c86f12ebe770f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_140.asset using Guid(1606494c313c2fc4c86f12ebe770f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2b0c335ad908fa72e8b623fb8815df0f') in 0.018711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.205601 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_83.asset
-  artifactKey: Guid(96497fee162e08c468773f0f00d487d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_83.asset using Guid(96497fee162e08c468773f0f00d487d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1a78fbb3dd92ca22d47936c86884cf16') in 0.016197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.009969 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_68.asset
-  artifactKey: Guid(b82312af518902f438c4756e4f5c6d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_68.asset using Guid(b82312af518902f438c4756e4f5c6d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8ec33aee0576abc85dfbc0155c60b353') in 0.027002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_67.asset
-  artifactKey: Guid(282764a6518b3b94b9e0392a8e215f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_67.asset using Guid(282764a6518b3b94b9e0392a8e215f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '92c3783403c076b58f251e0028f868ba') in 0.021005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_50.asset
-  artifactKey: Guid(f3b130eb03b15224dbe4bcc6c4c9f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_50.asset using Guid(f3b130eb03b15224dbe4bcc6c4c9f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'aea50a495c1da523720dc50eede1671a') in 0.021510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_45.asset
-  artifactKey: Guid(d784dbb69581dce4b994b885784fadfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_45.asset using Guid(d784dbb69581dce4b994b885784fadfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9899de8aa1845b19c350b1360801deb8') in 0.025572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_47.asset
-  artifactKey: Guid(4527c89159e5472418a8645c34ea2ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_47.asset using Guid(4527c89159e5472418a8645c34ea2ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0754fc7675247b3f1de85fd47dc9cda5') in 0.022921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 348.376463 seconds.
-  path: Assets/Sprites/Tileset2/level2.prefab
-  artifactKey: Guid(e8aee4fcfc498ea4c8a8b28803b16308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/level2.prefab using Guid(e8aee4fcfc498ea4c8a8b28803b16308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5970e8ab4d6b5f6f50cfd24f2b24cd5d') in 0.132672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 315
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_4.asset
-  artifactKey: Guid(1126dee1a2eac8648964bd77f347f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_4.asset using Guid(1126dee1a2eac8648964bd77f347f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3d0d16c1de662b2fcc1b85389c35df2d') in 0.021509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_0.asset
-  artifactKey: Guid(5ab718895bbc5ba49a66468358dec327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_0.asset using Guid(5ab718895bbc5ba49a66468358dec327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '520783ba034601fe662d47ae658ad011') in 0.010889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_10.asset
-  artifactKey: Guid(e580c3d9bfef97d4b81aa2e984258f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_10.asset using Guid(e580c3d9bfef97d4b81aa2e984258f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f51f2243a30d415eff62502fc55666db') in 0.009013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_8.asset
-  artifactKey: Guid(28dfc5f2f1d40da4f87a4d072a3600bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_8.asset using Guid(28dfc5f2f1d40da4f87a4d072a3600bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cc76c391a98d09e19edff73b64d1474e') in 0.007229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_5.asset
-  artifactKey: Guid(c4edf8ae171f8594ea1f2ac2db2273c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_5.asset using Guid(c4edf8ae171f8594ea1f2ac2db2273c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7d735807d0e9b7403b360a367cabd5c5') in 0.007031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_1.asset
-  artifactKey: Guid(2b9dbdbbad88a264fa842eecb74ddd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_1.asset using Guid(2b9dbdbbad88a264fa842eecb74ddd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2994ec311ea423f9ae6883520824574a') in 0.010275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_2.asset
-  artifactKey: Guid(00cb17d84b6ca0f41b335a59278da4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_2.asset using Guid(00cb17d84b6ca0f41b335a59278da4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c3025dca0067f09c648e90cc6c9750ab') in 0.017699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_6.asset
-  artifactKey: Guid(4006f6ae1825c83459c166578513f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_6.asset using Guid(4006f6ae1825c83459c166578513f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '169afbdb5349843f34273e0c0d8433d3') in 0.007328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_3.asset
-  artifactKey: Guid(ed2f375793b835c42961a2deee71719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_3.asset using Guid(ed2f375793b835c42961a2deee71719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4b37d6f99551fb12bc8bc800effba922') in 0.007498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_7.asset
-  artifactKey: Guid(c80e4fde7b7fc2e4a8f37ab2c0ea284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_7.asset using Guid(c80e4fde7b7fc2e4a8f37ab2c0ea284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c16ac2792c9c5cc23b1a25d9b4800451') in 0.007811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sprites/Tileset2/oak_woods_tileset_9.asset
-  artifactKey: Guid(816e3184e922ff444ace898352fd2503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tileset2/oak_woods_tileset_9.asset using Guid(816e3184e922ff444ace898352fd2503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ed005b14ddda9237d64ca9dfa630bc35') in 0.006618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 5734.577051 seconds.
+  path: Assets/animaciones_golem/die.anim
+  artifactKey: Guid(31b19f3d5056cf549b56df83f9d3e198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animaciones_golem/die.anim using Guid(31b19f3d5056cf549b56df83f9d3e198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36137330dde128bbe733e433fe11fbe5') in 0.011688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

@@ -19,6 +19,10 @@ public class MovimientoJugador : MonoBehaviour
     private Rigidbody2D rb;
     private bool enSuelo;
 
+    [Header("Salto Extra")]
+    public int saltosExtrasMaximos = 1;
+    private int saltosExtrasRestantes;
+
     public Transform detectorSuelo;
     public float radioDeteccion = 0.4f;
 
@@ -179,7 +183,6 @@ public class MovimientoJugador : MonoBehaviour
             else if (puedeSaltoExtra)
             {
                 rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
-                animator.SetTrigger(Mathf.Abs(movimiento) > 0.01f ? "saltomovimiento" : "salto");
                 puedeSaltoExtra = false; // consumir el salto extra
             }
         }
@@ -195,6 +198,16 @@ public class MovimientoJugador : MonoBehaviour
             puedeHacerDash = true;
             animator.SetBool("falling", false);
             animator.SetBool("Dash", false);
+
+            if (puedeSaltoExtra == false && GameObject.FindGameObjectWithTag("SaltoExtra") == null)
+            {
+                puedeSaltoExtra = false;
+            }
+           
+            if (puedeSaltoExtra) 
+            {
+                puedeSaltoExtra = true;
+            }
 
             if (haciendoSlide)
             {
@@ -285,9 +298,14 @@ public class MovimientoJugador : MonoBehaviour
         }
         else if (collision.CompareTag("SaltoExtra"))
         {
-            puedeSaltoExtra = true;
-            Destroy(collision.gameObject); // elimina la esfera si solo se puede usar una vez
+            SaltoExtra saltoExtra = collision.GetComponent<SaltoExtra>();
+            if (saltoExtra != null)
+            {
+                puedeSaltoExtra = true;
+                saltoExtra.ActivarEfecto();
+            }
         }
+
     }
 
     public void ActualizarCheckpoint(Vector2 nuevaPosicion)
