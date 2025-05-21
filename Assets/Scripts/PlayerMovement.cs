@@ -172,7 +172,7 @@ public class MovimientoJugador : MonoBehaviour
         }
 
         // SALTO
-       if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (enSuelo)
             {
@@ -203,8 +203,8 @@ public class MovimientoJugador : MonoBehaviour
             {
                 puedeSaltoExtra = false;
             }
-           
-            if (puedeSaltoExtra) 
+
+            if (puedeSaltoExtra)
             {
                 puedeSaltoExtra = true;
             }
@@ -408,11 +408,13 @@ public class MovimientoJugador : MonoBehaviour
 
         // Activar hitbox
         hitboxAtaque.SetActive(true);
+        hitboxAtaque.transform.position += new Vector3(0.01f, 0, 0);
 
         // Mantenerla activa por el resto de la duración del ataque
         yield return new WaitForSeconds(duracionHitboxActiva);
 
         // Desactivarla
+        hitboxAtaque.transform.position -= new Vector3(0.01f, 0, 0);
         hitboxAtaque.SetActive(false);
 
         atacando = false;
@@ -474,15 +476,15 @@ public class MovimientoJugador : MonoBehaviour
             RecibirDaño(1);
             StartCoroutine(InvulnerabilidadTemporal());
         }
-       
-    } 
+
+    }
     IEnumerator InvulnerabilidadTemporal()
     {
         puedeRecibirDaño = false;
         yield return new WaitForSeconds(tiempoInvulnerabilidad);
         puedeRecibirDaño = true;
     }
-    
+
     public void Curar(int cantidad)
     {
         vidaActual += cantidad;
@@ -491,5 +493,22 @@ public class MovimientoJugador : MonoBehaviour
 
         uiVida.ActualizarVida(vidaActual, vidaMaxima);
     }
+    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Plataforma"))
+        {
+            transform.parent = collision.transform;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Plataforma"))
+        {
+            transform.parent = null;
+        }
+    }
+
 
 }

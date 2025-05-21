@@ -12,6 +12,8 @@ TagManager:
   - HitboxJugador
   - HitboxEnemigo
   - SaltoExtra
+  - Plataforma
+  - Portal
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - UI
   - Suelo
   - EnemyAttack
-  - 
+  - Player
   - 
   - 
   - 

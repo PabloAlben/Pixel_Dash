@@ -118,6 +118,7 @@ public class EnemigoSlime : MonoBehaviour
         {
         
             hitboxAtaque.SetActive(true);
+            hitboxAtaque.transform.position += new Vector3(0.01f, 0, 0);
             golpeEjecutado = true;
 
             // Desactivamos la hitbox tras su duración
@@ -129,11 +130,12 @@ public class EnemigoSlime : MonoBehaviour
     private void FinAtaque()
     {
         estaAtacando = false;
-        hitboxAtaque.SetActive(false);
+        
     }
 
     private void DesactivarHitbox()
     {
+        hitboxAtaque.transform.position -= new Vector3(0.01f, 0, 0);
         hitboxAtaque.SetActive(false);
     }
 
@@ -148,13 +150,15 @@ public class EnemigoSlime : MonoBehaviour
         }
     }
 
-    public void Morir()
+ public void Morir()
     {
         animator.SetTrigger("isDead");
         this.enabled = false;
         rb.velocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Static;
         GetComponent<Collider2D>().enabled = false;
+    
+        Destroy(gameObject, 1f);
     }
 
     private float tiempoUltimoDaño;
