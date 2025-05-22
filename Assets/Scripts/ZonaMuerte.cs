@@ -8,8 +8,12 @@ public class ZonaMuerte : MonoBehaviour
     {
         if (col.CompareTag("Jugador"))
         {
-            col.transform.position = new Vector3(0, -1.4f, 0);
+            MovimientoJugador jugador = col.GetComponent<MovimientoJugador>();
+
+            if (jugador != null)
+            {
+                col.transform.position = jugador.ultimoCheckpoint; // <--- usamos directamente el Vector2
+            }
         }
     }
 }
-

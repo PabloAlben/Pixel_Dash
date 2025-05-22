@@ -76,9 +76,11 @@
     <Compile Include="Assets\Scripts\VidaJugadorUI.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\enemigo_slime.cs" />
+    <Compile Include="Assets\Scripts\ActivadorPlataforma.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\ParallaxMovement.cs" />
     <Compile Include="Assets\Scripts\enemigo_golem.cs" />
+    <Compile Include="Assets\Scripts\PlataformaQueDesaparece.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SaltoExtra.cs" />
   </ItemGroup>
