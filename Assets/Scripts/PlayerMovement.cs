@@ -75,8 +75,8 @@ public class MovimientoJugador : MonoBehaviour
     private Vector2 colliderSizeOriginal;
     private Vector2 colliderOffsetOriginal;
 
-    [SerializeField] private Vector2 colliderSizeSlide = new Vector2(1f, 0.4f);
-    [SerializeField] private Vector2 colliderOffsetSlide = new Vector2(0f, 0.1f);
+    [SerializeField] private Vector2 colliderSizeSlide = new Vector2(1f, 0.2f);
+    [SerializeField] private Vector2 colliderOffsetSlide = new Vector2(0f, 0.0f);
 
     private bool puedeSaltoExtra = false;
 
