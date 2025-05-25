@@ -391,11 +391,14 @@
 "Assets/Scripts/ParallaxMovement.cs"
 "Assets/Scripts/PlataformaMovil.cs"
 "Assets/Scripts/PlataformaQueDesaparece.cs"
+"Assets/Scripts/PlataformaRebote.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Portal.cs"
 "Assets/Scripts/SaltoExtra.cs"
+"Assets/Scripts/sounds/MusicManager.cs"
 "Assets/Scripts/VidaJugadorUI.cs"
 "Assets/Scripts/ZonaMuerte.cs"
+"Assets/Scripts/ZonaViento.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -1,11 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MenuPausa : MonoBehaviour
 {
     public GameObject menuPausaUI;
     private bool juegoPausado = false;
+
+    [Header("Sonido")]
+    public Sprite sonidoActivadoSprite;
+    public Sprite sonidoDesactivadoSprite;
+    public Image botonSonidoImage;
+    private bool sonidoActivo = true;
 
     void Update()
     {
@@ -34,12 +41,24 @@ public class MenuPausa : MonoBehaviour
 
     public void SalirJuego()
     {
-        // Si estás en el editor
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #else
         Application.Quit();
         #endif
     }
-}
 
+    // 🔊 Función que puedes vincular al botón de sonido
+    public void ToggleSonido()
+    {
+        sonidoActivo = !sonidoActivo;
+
+        AudioListener.pause = !sonidoActivo;
+
+        // Cambiar sprite del botón
+        if (botonSonidoImage != null)
+        {
+            botonSonidoImage.sprite = sonidoActivo ? sonidoActivadoSprite : sonidoDesactivadoSprite;
+        }
+    }
+}

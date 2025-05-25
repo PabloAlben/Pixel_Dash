@@ -37,7 +37,7 @@ public class MovimientoJugador : MonoBehaviour
     [Header("Dash")]
     public float fuerzaDash = 40f;
     public float tiempoDash = 0.683f;
-    private bool haciendoDash = false;
+    public bool haciendoDash = false;
     private bool puedeHacerDash = true;
     private float gravedadOriginal;
 
@@ -80,6 +80,13 @@ public class MovimientoJugador : MonoBehaviour
 
     private bool puedeSaltoExtra = false;
 
+    private bool enZonaViento = false;
+
+    private bool estaCayendo = false;
+
+    private bool alturaCaidaYaAsignada = false;
+
+
 
     void Start()
     {
@@ -113,10 +120,18 @@ public class MovimientoJugador : MonoBehaviour
             return;
         }
 
-        if (estabaEnSuelo && !enSuelo)
+        // Detectar inicio de caída
+        if (!enSuelo && rb.velocity.y < 0 && !estaCayendo)
         {
-            alturaInicioCaida = transform.position.y;
+            if (!alturaCaidaYaAsignada)
+            {
+                alturaInicioCaida = transform.position.y;
+            }
+
+            estaCayendo = true;
+            alturaCaidaYaAsignada = true;
         }
+
 
         // DASH
         if (!haciendoDash && !animacionDashActiva && Input.GetKeyDown(KeyCode.LeftShift) && puedeHacerDash)
@@ -195,6 +210,8 @@ public class MovimientoJugador : MonoBehaviour
 
         if (enSuelo)
         {
+            estaCayendo = false;
+            alturaCaidaYaAsignada = false;
             puedeHacerDash = true;
             animator.SetBool("falling", false);
             animator.SetBool("Dash", false);
@@ -226,8 +243,12 @@ public class MovimientoJugador : MonoBehaviour
         {
             float alturaCaida = alturaInicioCaida - transform.position.y;
             animator.SetBool("falling", rb.velocity.y < 0 && alturaCaida >= alturaMinimaParaCaer);
-            if (rb.velocity.y > 0)
+            
+            if (rb.velocity.y > 0 && !alturaCaidaYaAsignada)
+            {
                 animator.SetBool("falling", false);
+            }
+
 
             animator.SetBool("isRunning", false);
         }
@@ -305,6 +326,12 @@ public class MovimientoJugador : MonoBehaviour
                 saltoExtra.ActivarEfecto();
             }
         }
+        else if (collision.CompareTag("ZonaViento"))
+        {
+            enZonaViento = true;
+            // Aquí puedes agregar lo que quieras que pase cuando entra en la zona
+            Debug.Log("Entró a la zona de viento");
+        }
 
     }
 
@@ -321,7 +348,15 @@ public class MovimientoJugador : MonoBehaviour
         puedeCorrer = false;
 
         rb.gravityScale = 0;
-        rb.velocity = new Vector2((spriteRenderer.flipX ? -1 : 1) * fuerzaDash, 0);
+
+        float direccion = spriteRenderer.flipX ? -1f : 1f;
+        float fuerzaUsada = enZonaViento ? fuerzaDash * 0.5f : fuerzaDash;
+
+        // Anular cualquier movimiento previo
+        rb.velocity = Vector2.zero;
+
+        // Aplicar dash
+        rb.velocity = new Vector2(direccion * fuerzaUsada, 0f);
 
         animator.SetBool("Dash", true);
         animator.SetBool("falling", false);
@@ -337,6 +372,7 @@ public class MovimientoJugador : MonoBehaviour
         yield return new WaitForSeconds(tiempoBloqueoCorrer);
         puedeCorrer = true;
     }
+
 
     IEnumerator RealizarSlide()
     {
@@ -493,13 +529,14 @@ public class MovimientoJugador : MonoBehaviour
 
         uiVida.ActualizarVida(vidaActual, vidaMaxima);
     }
-    
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Plataforma"))
         {
             transform.parent = collision.transform;
         }
+
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -508,7 +545,31 @@ public class MovimientoJugador : MonoBehaviour
         {
             transform.parent = null;
         }
+
     }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("ZonaViento"))
+        {
+            enZonaViento = false;
+
+            Debug.Log("Salió de la zona de viento");
+        }
+    }
+    
+    public void OnBounce()
+    {
+        enSuelo = false;
+        estaCayendo = false;
+        alturaCaidaYaAsignada = true;
+
+        float offsetAltura = 1f;
+        alturaInicioCaida = transform.position.y - offsetAltura;
+
+        animator.SetBool("isRunning", false);
+        animator.SetBool("Dash", false);
+        animator.SetBool("falling", true); // Fuerza la animación de caída al rebotar
+    }
 
 }
