@@ -1,0 +1,309 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1748205539575978, "dur":27916, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748205539603904, "dur":116, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748205539604065, "dur":295, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748205539605108, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748205539606319, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748205539604376, "dur":2593, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748205539606970, "dur":4959903, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748205544566874, "dur":210, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748205544567107, "dur":56, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748205544567262, "dur":2937, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1748205539604646, "dur":2328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748205539606975, "dur":4262, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748205539613114, "dur":506, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1748205539613625, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748205539613735, "dur":1214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1748205539614951, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1748205539615256, "dur":470, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748205539615727, "dur":422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748205539616153, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748205539616323, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748205539616448, "dur":772, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748205539617221, "dur":431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748205539617653, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748205539617833, "dur":418, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748205539618354, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player254d1f7d-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1748205539613624, "dur":5027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748205539619130, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748205539619546, "dur":254430, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748205539879709, "dur":2430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748205539879708, "dur":2434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748205539882187, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748205539883339, "dur":4683552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748205539604650, "dur":2329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748205539606980, "dur":1152, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748205539608132, "dur":3120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748205539611268, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748205539612809, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1748205539615353, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1748205539615350, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1748205539617450, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1748205539618905, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1748205539618903, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1748205539619052, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1748205539620493, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1748205539620893, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1748205539622025, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1748205539622532, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1748205539623866, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1748205539623998, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1748205539625271, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539625269, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539625579, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539626988, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash.exe" }}
+,{ "pid":12345, "tid":2, "ts":1748205539630636, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1748205539631233, "dur":6553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1748205539637991, "dur":9191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539647255, "dur":4584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539651906, "dur":5298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539657288, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539659628, "dur":2731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539662431, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539665364, "dur":7705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539673144, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539676722, "dur":7341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539684179, "dur":7898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539692153, "dur":12998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539705241, "dur":10425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748205539715750, "dur":31677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1748205539747675, "dur":32627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1748205539780397, "dur":4786481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748205539604705, "dur":2289, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748205539606995, "dur":1073, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748205539608068, "dur":3228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748205539611301, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1748205539631311, "dur":7290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1748205539638707, "dur":10219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539649073, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539652777, "dur":4407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539657251, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539660672, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539664019, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539668942, "dur":3455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539672609, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539676220, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539685209, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748205539679901, "dur":5376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539685364, "dur":5002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539690643, "dur":14615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539705331, "dur":19698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748205539773480, "dur":127, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748205539725149, "dur":48497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748205539774057, "dur":4792847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748205539604673, "dur":2310, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748205539606985, "dur":1010, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748205539607995, "dur":3292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748205539611298, "dur":428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1748205539611289, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1748205539632800, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1748205539635822, "dur":15621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539651523, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539653987, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539656789, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539659619, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539661484, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539663456, "dur":3497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539667033, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539669462, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539671566, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539674022, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539676701, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539680961, "dur":5039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539686134, "dur":4247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539699805, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748205539691134, "dur":8771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539700015, "dur":4307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539704415, "dur":5439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539709919, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539711936, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539711933, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539712148, "dur":88538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748205539800746, "dur":4766156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748205539604699, "dur":2289, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748205539606990, "dur":1131, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748205539608121, "dur":3136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748205539611603, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539611793, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539611894, "dur":382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539612277, "dur":574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539612852, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539612980, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539613066, "dur":348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539613416, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539613505, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539613622, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539613794, "dur":1107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539614904, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539614982, "dur":519, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539615503, "dur":600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539616104, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539616305, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539616385, "dur":814, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539617200, "dur":460, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539617662, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539617830, "dur":437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\gaming\\Desktop\\TFC\\Pixel_Dash\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748205539618354, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":5, "ts":1748205539611259, "dur":7284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":5, "ts":1748205539619035, "dur":89, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748205539620999, "dur":4941808, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":5, "ts":1748205544566041, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539604856, "dur":2141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748205539606998, "dur":1084, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748205539608083, "dur":3180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748205539611279, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1748205539611265, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1748205539613181, "dur":5278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1748205539618534, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1748205539618877, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1748205539620006, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1748205539620130, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1748205539621356, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1748205539621353, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1748205539621738, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1748205539622835, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1748205539622833, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1748205539622957, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1748205539624949, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1748205539625338, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1748205539626475, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539626473, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539626740, "dur":21602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539651142, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748205539648483, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539651331, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539653118, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539656637, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539657956, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539660611, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539663171, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539666408, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539668007, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539671465, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539674338, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539677201, "dur":5732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539683096, "dur":6951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539702053, "dur":343, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748205539690123, "dur":12287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539702582, "dur":4193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539706856, "dur":8317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748205539715270, "dur":8333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1748205539723736, "dur":14212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1748205539738319, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1748205539741597, "dur":17823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1748205539759480, "dur":4807402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748205539604877, "dur":2124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748205539607003, "dur":1069, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748205539608072, "dur":3203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748205539611278, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1748205539633151, "dur":5598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1748205539638832, "dur":6676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539645670, "dur":5446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539651191, "dur":326, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748205539651523, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539653381, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539656692, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539659860, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539661425, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539665383, "dur":4907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539670548, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539673935, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539677460, "dur":6024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539683584, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539688382, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539702309, "dur":319, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748205539692856, "dur":9784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539702827, "dur":5184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539708177, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539711423, "dur":19132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748205539730782, "dur":23840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1748205539754700, "dur":6847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1748205539761679, "dur":4805208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748205539604959, "dur":2047, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748205539607007, "dur":1073, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748205539608080, "dur":3189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748205539611289, "dur":593, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1748205539611272, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1748205539684652, "dur":640, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748205539687517, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1748205539691557, "dur":6330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748205539697996, "dur":6498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748205539704576, "dur":5095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748205539709758, "dur":32506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748205539742456, "dur":12985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1748205539755505, "dur":4811367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748205539604975, "dur":2035, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748205539607012, "dur":957, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748205539607969, "dur":3312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748205539611283, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1748205539685407, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1748205539687113, "dur":4189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748205539691426, "dur":5707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748205539697239, "dur":7491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748205539704872, "dur":10464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748205539715446, "dur":6189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1748205539721739, "dur":26269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1748205539748119, "dur":19467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1748205539770438, "dur":4796439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748205539605099, "dur":1921, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748205539607020, "dur":4323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748205539611350, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1748205539632943, "dur":6456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1748205539639494, "dur":4679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539644661, "dur":4222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539649006, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539652355, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539655280, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539657490, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539660312, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539662296, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539664310, "dur":3513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539668007, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539670389, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539672796, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539675617, "dur":4608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539680310, "dur":6964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539687370, "dur":5042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539692485, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539696218, "dur":6557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539702893, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539706835, "dur":4894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539711874, "dur":12900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748205539739882, "dur":174, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748205539724904, "dur":15409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1748205539740813, "dur":194, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748205539754153, "dur":314, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748205539741017, "dur":13539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1748205539754696, "dur":11941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1748205539766707, "dur":4800163, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748205539605064, "dur":1951, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748205539607016, "dur":638, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748205539607654, "dur":3657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748205539611313, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1748205539686611, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1748205539690260, "dur":6829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748205539701757, "dur":579, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748205539697172, "dur":5180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748205539706177, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748205539702542, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748205539706538, "dur":4410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748205539711035, "dur":11126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748205539722286, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1748205539752653, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748205539725682, "dur":27058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1748205539752842, "dur":14350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1748205539767254, "dur":4799651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748205539605108, "dur":1917, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748205539607025, "dur":4280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748205539611327, "dur":729, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.31f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1748205539611307, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1748205539687290, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1748205539689400, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748205539692531, "dur":8793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748205539702718, "dur":6601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748205539709472, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748205539712935, "dur":35728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1748205539748826, "dur":9969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gaming/Desktop/juego2/Pixel Dash_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1748205539758899, "dur":4807972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748205544574363, "dur":1519, "ph":"X", "name": "ProfilerWriteOutput" }
+,
