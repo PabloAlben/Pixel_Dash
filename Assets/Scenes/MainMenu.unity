@@ -1496,7 +1496,7 @@ GameObject:
   - component: {fileID: 1070185183}
   m_Layer: 0
   m_Name: MusicManager
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1525,7 +1525,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a6da16b1a2dfb764783fb3483d2c10d2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 0.55
   Loop: 1
   Mute: 0
@@ -2042,7 +2042,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sliderVolumen: {fileID: 1174752450}
-  audioGlobal: {fileID: 1070185184}
   togglePantallaCompleta: {fileID: 145625150}
   toggleVsync: {fileID: 742871642}
   menuAjustes: {fileID: 382410373}

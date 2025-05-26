@@ -87,6 +87,15 @@ public class MovimientoJugador : MonoBehaviour
     private bool alturaCaidaYaAsignada = false;
 
 
+    [Header("Sonidos")]
+
+    private SonidosJugador audioManager;
+
+
+
+
+
+
 
     void Start()
     {
@@ -100,6 +109,7 @@ public class MovimientoJugador : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         colliderSizeOriginal = boxCollider.size;
         colliderOffsetOriginal = boxCollider.offset;
+        audioManager = FindObjectOfType<SonidosJugador>();
     }
 
     void Update()
@@ -116,6 +126,7 @@ public class MovimientoJugador : MonoBehaviour
         if (levantandose)
         {
             animator.SetBool("isRunning", false);
+            audioManager.PararCaminar();
             animator.SetBool("falling", false);
             return;
         }
@@ -142,12 +153,14 @@ public class MovimientoJugador : MonoBehaviour
         // ROLLING
         if (Input.GetKeyDown(teclaRolling) && enSuelo && Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.01f && !haciendoRolling)
         {
+            audioManager.PararCaminar();
             StartCoroutine(HacerRolling());
         }
 
         // SLIDE
         if (Input.GetKeyDown(teclaSlide) && enSuelo && Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.01f && !haciendoSlide)
         {
+            audioManager.PararCaminar();
             StartCoroutine(RealizarSlide());
         }
 
@@ -175,6 +188,7 @@ public class MovimientoJugador : MonoBehaviour
         {
             animator.SetBool("Dash", true);
             animator.SetBool("isRunning", false);
+            audioManager.PararCaminar();
             animator.SetBool("falling", false);
             return;
         }
@@ -182,6 +196,7 @@ public class MovimientoJugador : MonoBehaviour
         if (haciendoRolling)
         {
             animator.SetBool("isRunning", false);
+            audioManager.PararCaminar();
             animator.SetBool("falling", false);
             return;
         }
@@ -191,12 +206,17 @@ public class MovimientoJugador : MonoBehaviour
         {
             if (enSuelo)
             {
+                audioManager.PararCaminar();
                 rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
+                audioManager.ReproducirSalto();
                 animator.SetTrigger(Mathf.Abs(movimiento) > 0.01f ? "saltomovimiento" : "salto");
                 animator.SetBool("isRunning", false);
+                
             }
             else if (puedeSaltoExtra)
             {
+                audioManager.PararCaminar();
+                audioManager.ReproducirSalto();
                 rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
                 puedeSaltoExtra = false; // consumir el salto extra
             }
@@ -205,6 +225,7 @@ public class MovimientoJugador : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0)
         {
+            audioManager.PararCaminar();
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
@@ -229,21 +250,24 @@ public class MovimientoJugador : MonoBehaviour
             if (haciendoSlide)
             {
                 animator.SetBool("isRunning", false);
+                audioManager.PararCaminar();
             }
-            else if (puedeCorrer && Mathf.Abs(movimiento) > 0.01f)
+            else if (puedeCorrer && Mathf.Abs(movimiento) > 0.01f && enSuelo)
             {
                 animator.SetBool("isRunning", true);
+                audioManager.EmpezarCaminar();
             }
             else
             {
                 animator.SetBool("isRunning", false);
+                audioManager.PararCaminar();
             }
         }
         else
         {
             float alturaCaida = alturaInicioCaida - transform.position.y;
             animator.SetBool("falling", rb.velocity.y < 0 && alturaCaida >= alturaMinimaParaCaer);
-            
+
             if (rb.velocity.y > 0 && !alturaCaidaYaAsignada)
             {
                 animator.SetBool("falling", false);
@@ -251,6 +275,7 @@ public class MovimientoJugador : MonoBehaviour
 
 
             animator.SetBool("isRunning", false);
+            audioManager.PararCaminar();
         }
 
         // -------- DETECCIÓN DE INACTIVIDAD --------
@@ -357,10 +382,12 @@ public class MovimientoJugador : MonoBehaviour
 
         // Aplicar dash
         rb.velocity = new Vector2(direccion * fuerzaUsada, 0f);
+        audioManager.ReproducirDash();
 
         animator.SetBool("Dash", true);
         animator.SetBool("falling", false);
         animator.SetBool("isRunning", false);
+        audioManager.PararCaminar();
 
         yield return new WaitForSeconds(tiempoDash);
 
@@ -435,13 +462,14 @@ public class MovimientoJugador : MonoBehaviour
         string trigger = "atack" + numeroAtaque;
         animator.SetTrigger(trigger);
         animator.SetBool("isRunning", false);
+        audioManager.PararCaminar();
 
         float retrasoActivacionHitbox = 0.5f; // Ajusta este valor según tu animación
         float duracionHitboxActiva = duracionAtaque - retrasoActivacionHitbox;
 
         // Esperar antes de activar la hitbox
         yield return new WaitForSeconds(retrasoActivacionHitbox);
-
+        audioManager.ReproducirAtaque();
         // Activar hitbox
         hitboxAtaque.SetActive(true);
         hitboxAtaque.transform.position += new Vector3(0.01f, 0, 0);
@@ -477,6 +505,7 @@ public class MovimientoJugador : MonoBehaviour
     IEnumerator Morir()
     {
         animator.SetTrigger("dead");
+        audioManager.ReproducirMorir();
 
         rb.velocity = Vector2.zero; // Detener movimiento
 
@@ -526,7 +555,7 @@ public class MovimientoJugador : MonoBehaviour
         vidaActual += cantidad;
         if (vidaActual > vidaMaxima)
             vidaActual = vidaMaxima;
-
+        audioManager.ReproducirCurar();
         uiVida.ActualizarVida(vidaActual, vidaMaxima);
     }
 
@@ -568,6 +597,7 @@ public class MovimientoJugador : MonoBehaviour
         alturaInicioCaida = transform.position.y - offsetAltura;
 
         animator.SetBool("isRunning", false);
+        audioManager.PararCaminar();
         animator.SetBool("Dash", false);
         animator.SetBool("falling", true); // Fuerza la animación de caída al rebotar
     }

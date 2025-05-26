@@ -15,6 +15,7 @@ TagManager:
   - Plataforma
   - Portal
   - ZonaViento
+  - Music
   layers:
   - Default
   - TransparentFX

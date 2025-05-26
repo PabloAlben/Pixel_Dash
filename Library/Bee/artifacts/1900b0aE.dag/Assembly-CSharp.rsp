@@ -397,6 +397,7 @@
 "Assets/Scripts/Portal.cs"
 "Assets/Scripts/SaltoExtra.cs"
 "Assets/Scripts/sounds/MusicManager.cs"
+"Assets/Scripts/sounds/SonidosJugador.cs"
 "Assets/Scripts/VidaJugadorUI.cs"
 "Assets/Scripts/ZonaMuerte.cs"
 "Assets/Scripts/ZonaViento.cs"

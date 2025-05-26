@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\enemigo_slime.cs" />
     <Compile Include="Assets\Scripts\ActivadorPlataforma.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\sounds\SonidosJugador.cs" />
     <Compile Include="Assets\Scripts\ParallaxMovement.cs" />
     <Compile Include="Assets\Scripts\enemigo_golem.cs" />
     <Compile Include="Assets\Scripts\PlataformaRebote.cs" />
