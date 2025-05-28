@@ -64,30 +64,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlataformaMovil.cs" />
-    <Compile Include="Assets\Scripts\CamaraSeguimiento.cs" />
-    <Compile Include="Assets\Scripts\ZonaViento.cs" />
-    <Compile Include="Assets\Scripts\AjustesManager.cs" />
-    <Compile Include="Assets\Scripts\Portal.cs" />
-    <Compile Include="Assets\Scripts\CorazonCura.cs" />
-    <Compile Include="Assets\Scripts\MenuInicio.cs" />
-    <Compile Include="Assets\Scripts\MenuPausa.cs" />
-    <Compile Include="Assets\Scripts\HitboxJugador.cs" />
-    <Compile Include="Assets\Scripts\ZonaMuerte.cs" />
-    <Compile Include="Assets\Scripts\HitboxAtaqueSlime.cs" />
-    <Compile Include="Assets\Scripts\VidaJugadorUI.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\mundo\SaltoExtra.cs" />
+    <Compile Include="Assets\Scripts\menus\MenuInicio.cs" />
+    <Compile Include="Assets\Scripts\mundo\ActivadorPlataforma.cs" />
+    <Compile Include="Assets\Scripts\menus\MenuPausa.cs" />
+    <Compile Include="Assets\Scripts\mundo\CorazonCura.cs" />
+    <Compile Include="Assets\Scripts\mundo\PlataformaMovil.cs" />
+    <Compile Include="Assets\Scripts\varios\HitboxAtaqueSlime.cs" />
+    <Compile Include="Assets\Scripts\mundo\Portal.cs" />
+    <Compile Include="Assets\Scripts\enemigos\enemigo_golem.cs" />
+    <Compile Include="Assets\Scripts\enemigos\enemigo_slime.cs" />
+    <Compile Include="Assets\Scripts\jugador\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\sounds\MusicManager.cs" />
-    <Compile Include="Assets\Scripts\enemigo_slime.cs" />
-    <Compile Include="Assets\Scripts\ActivadorPlataforma.cs" />
-    <Compile Include="Assets\Scripts\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\mundo\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\mundo\PlataformaQueDesaparece.cs" />
+    <Compile Include="Assets\Scripts\varios\GameManager.cs" />
+    <Compile Include="Assets\Scripts\mundo\PlataformaRebote.cs" />
     <Compile Include="Assets\Scripts\sounds\SonidosJugador.cs" />
-    <Compile Include="Assets\Scripts\ParallaxMovement.cs" />
-    <Compile Include="Assets\Scripts\enemigo_golem.cs" />
-    <Compile Include="Assets\Scripts\PlataformaRebote.cs" />
-    <Compile Include="Assets\Scripts\PlataformaQueDesaparece.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\SaltoExtra.cs" />
+    <Compile Include="Assets\Scripts\varios\CamaraSeguimiento.cs" />
+    <Compile Include="Assets\Scripts\menus\AjustesManager.cs" />
+    <Compile Include="Assets\Scripts\mundo\ZonaMuerte.cs" />
+    <Compile Include="Assets\Scripts\jugador\VidaJugadorUI.cs" />
+    <Compile Include="Assets\Scripts\mundo\ZonaViento.cs" />
+    <Compile Include="Assets\Scripts\varios\HitboxJugador.cs" />
+    <Compile Include="Assets\Scripts\varios\ParallaxMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

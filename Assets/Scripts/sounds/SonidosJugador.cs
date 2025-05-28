@@ -12,17 +12,15 @@ public class SonidosJugador : MonoBehaviour
     public AudioClip sonidoDash;
     public AudioClip sonidoSalto;
     public AudioClip sonidoCaminar;
-
-    private float volumenOriginal;
-    private float pitchOriginal;
+    public AudioClip sonidodanyo;
+    public AudioClip sonidoslide;
 
     [Range(0f, 2f)]
     public float escalaSFX = 2f;
 
     private void Awake()
     {
-        volumenOriginal = audioSource.volume;
-        pitchOriginal = audioSource.pitch;
+
     }
 
     private void ReproducirConAjustes(AudioClip clip, float volumenRelativo, float pitch)
@@ -46,6 +44,8 @@ public class SonidosJugador : MonoBehaviour
     public void ReproducirMorir() => ReproducirConAjustes(sonidoMorir, 1f, 0.8f);
     public void ReproducirDash() => ReproducirConAjustes(sonidoDash, 1f, 1f);
     public void ReproducirSalto() => ReproducirConAjustes(sonidoSalto, 1f, 0.6f);
+    public void ReproducirHurt() => ReproducirConAjustes(sonidodanyo, 1f, 1f);
+    public void ReproducirSlide() => ReproducirConAjustes(sonidoslide, 1f, 1f);
 
     // ---------------------
     // MANEJO DE PASOS
@@ -86,4 +86,5 @@ public class SonidosJugador : MonoBehaviour
             yield return new WaitForSeconds(0.4f); // ajusta el intervalo de pasos
         }
     }
+
 }
